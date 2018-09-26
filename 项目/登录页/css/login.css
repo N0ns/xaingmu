@@ -1,0 +1,44 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.logo { position: relative; }
+.gray { color: #878787; }
+.green { color: #65b42c; }
+input[type=text]:focus, input[type=password]:focus { outline: 3px solid #b1d6ff; }
+.login { background-color: #fff; border-top: 1px solid #65b42c; border-bottom: 1px solid #65b42c; margin-top: 20px; padding-top: 30px; }
+.login .fl img { margin-top: 20px; }
+.login .fr { padding-right: 105px; }
+.login-main { width: 308px; padding: 30px 20px 20px; background-color: #fff; border: 1px solid #e3e6e0; }
+.login-main .green { text-decoration: underline; }
+.login-main p { width: 100%; }
+.login p { margin-bottom: 20px; font: 12px Arial, "SimSun"; color: #878787; position: relative; overflow: hidden; }
+.login p strong { color: #262626; font: 18px/1 "Microsoft YaHei"; }
+.login p span { position: absolute; right: 0; top:0; }
+.login .input { padding-left: 50px; width: 254px; background-image: url(../images/bg_input.png); background-repeat: no-repeat; }
+.input-phone { background-position: 0 -120px; }
+.input-key { background-position: 0 -180px; }
+input[type=checkbox] { margin-right: 9px; height: 14px; width: 14px; vertical-align: -1px; }
+.input-phone-icon, .input-key-icon { position: absolute; left: 1px;  top: 1px !important; *top:2px !important;_top: 3px !important; width: 40px; height: 38px; background-image: url(../images/bg_input.png); background-repeat: no-repeat; }
+.input-phone-icon { background-position: 0 -120px; }
+.input-key-icon { background-position: 0 -180px; }
+i { display: inline-block;  *display: inline; *zoom: 1; width: 88px; height: 20px; background-image: url(../images/bg_login.png); background-repeat: no-repeat; margin-right: 20px; }
+.qq i { background-position: -60px -200px; }
+.sina i { background-position: -160px -200px; }
+.ay i { background-position: -260px -200px; width: 57px; margin-right: 0; }
+.msg-wrap { height: auto !important; margin: 2px 0px 5px; min-height: 31px; }
+.msg-error { position: relative; background: #FFEBEB none repeat scroll 0% 0%; border: 1px solid #E4393C; padding: 3px 10px 3px 40px; line-height: 18px; min-height: 18px; color: #E4393C; }
+
+/*微博登录*/
+.login-weibo { width: 900px; margin: 0 auto; padding-bottom: 20px; }
+.login-weibo p { line-height: 28px; font-size: 14px; width: 266px; margin: 0 auto; padding-bottom: 20px; font-size: 14px; color: #333; }
+.login-weibo dl { padding: 30px 0; width: 350px; margin: 0 auto; }
+.login-weibo dt { color: #333; font-size: 14px; margin-bottom: 30px; padding-left: 45px; font-weight: bold; }
+.login-weibo dd { margin-top: 20px; }
+.login-weibo dd span { display: inline-block; width: 95px; font-size: 14px; text-align: right; margin-right: 20px; }
+.login-weibo dd input { width: 230px; height: 25px; border: 1px solid #c1c1c1; }
+.login-weibo dd .btn-green-l { width: 120px; height: 30px; font-size: 16px; text-align: center; line-height: 30px; }
+.login-weibo .line { width: 100%; float: left; border-top: 1px solid #ccc; }
+
+.popout-code{ position:fixed; top:50%; left:50%; width:410px; height:250px; margin:-170px 0 0 -250px; padding:45px; border:1px solid #c7c7c7; background:#fff; z-index:50;}
+.popout-code .close{ position:absolute; top:0; right:0; width:41px; height:41px; background:url("../images/cha.png") no-repeat center center;}
+.popout-code p{ padding: 0 40px; line-height:24px; font-size:14px; color:#565656;}
+.popout-code .pcode{ margin:35px 0 0; text-align:center;}

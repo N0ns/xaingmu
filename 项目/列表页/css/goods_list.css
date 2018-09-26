@@ -1,0 +1,80 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/*.header_fixed{z-index: 100; display: block; position: fixed; _position: absolute;  top:0; left:0; width: 100%; height:78px; background:url(../images/header_fixed_bg.png) repeat;}*/
+
+/*广告位*/
+.page_ad{}
+.page_ad a{ display:block; float:left;}
+.page_ad a:hover{
+-moz-box-shadow:0px 0px 7px #777;
+-webkit-box-shadow:0px 0px 7px #777; 
+box-shadow:0px 0px 7px #777;}
+.page_ad .big{ width:1200px; height:300px; margin-bottom:10px;}
+.page_ad .medium{ width:405px; height:180px;}
+.page_ad .small{ width:180px; height:180px;}
+.page_ad .mr{ margin-right:10px; _margin-right:9px;}
+
+/*筛选*/
+.select {width: 1200px; line-height:25px; margin:20px 0;}
+.select .select_list{ display:none; position: relative; border:1px solid #e5e5e5; border-top:none; border-bottom-color:#c7c7c7; background:#f1f1f1;}
+.select .tit { float:left; width: 78px; padding:5px 0 5px 20px; color: #909090;}
+.select ul { float:left; position: relative; width:1100px; padding:5px 0; zoom: 1;}
+.select ul:after{ content: "."; display: block; height: 0; clear: both; visibility: hidden }
+.select li { float: left; display: inline; }
+.select a { display: inline-block; white-space: nowrap; padding: 0 15px; text-decoration: none; color: #777;}
+.select a:hover,.select .selected a { color: #008842;}
+.select a:hover{ text-decoration:underline;}
+.select .hot{ position: relative; border:1px solid #dedfdf; border-bottom:none; background:#eaeaea; color:#5c5c5c;}
+.select .hot .tit{ width:auto; color:#5c5c5c;}
+.select .hot a{ color:#5c5c5c;}
+.select .hot a:hover{ color: #008842;}
+.select .all{ position: relative; background:#eaeaea; border:1px solid #c7c7c7; border-right-color:#e5e5e5;}
+.select .all ul{ background:#f1f1f1; }
+.select .all li:after{ content: "|"; }
+.select .all li.last:after {content: "";}
+.select .select_more{ text-align:center; border-top:6px solid #dedfdf;}
+.select .select_more .btn{position: relative; display: inline-block; float:right; padding: 0 20px; background: #dedfdf; cursor: pointer;}
+.select .current a{color:#09964e;font-weight: bold;}
+
+/*排序*/
+.filter{ padding:5px 10px; background:#eaeaea}
+.filter_sort{}
+.filter_sort a{ display:block; float:left; height:18px; line-height:18px; margin-left:-1px; padding:5px 10px; border:1px solid #c7c7c7; background:#fff;}
+.filter_sort a i{ width:10px; height:16px; margin-left:3px; background:url(../images/filter_icon.png) no-repeat 0 0;}
+.filter_sort .price i{ background-position:-20px 0;}
+.filter_sort a:hover,.filter_sort .on{ background:#eee;}
+.filter_sort a:hover i,.filter_sort .on i{ background-position:-10px 0;}
+.filter_sort .price:hover i,.filter_sort .price.on i{ background-position:-20px 0; }
+.filter_sort .price:hover i.sort_down,.filter_sort .price.on i.sort_down{ background-position:-30px 0; }
+.filter_sort .price:hover i.sort_up,.filter_sort .price.on i.sort_up{ background-position:-40px 0; }
+
+.filter_ub{ float:left; margin-left:28px;}
+.filter_ub label{float: left; margin-right:15px; padding:8px 0;}
+.filter_ub input{margin: 0 5px 0 0;vertical-align: middle;}
+
+/*商品列表*/
+.goods_list{}
+.goods_list ul{ overflow:hidden; zoom: 1; margin-left: -13px; _margin-left: -28px;}
+.product_item { float: left; position: relative; width:290px; margin:15px 0 0 13px; background:#fff;}
+.product_item .p_img{ position:relative; width:290px; height:290px;}
+.product_item .p_info{ padding:10px; height: 48px;}
+.product_item .p_name{ height:16px; margin-bottom:10px; line-height:16px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.product_item .p_name a:hover { color: #008842; text-decoration:underline; }
+.product_item .p_price{ height:22px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.product_item .p_price .price{ font-size:18px; color:#e7380d; vertical-align:middle;}
+.product_item .p_price del{ font-size:12px; color:#777; padding:0 10px;}
+.product_item .p_price .saletip{ margin-left:10px; color:#e8340c;}
+.product_item .p_price .saletip b{ padding:3px 5px; margin-right:5px; font-weight:normal; color:#fff; background:#e8340c;
+-webkit-border-radius: 2px;
+-moz-border-radius:2px;
+border-radius:2px;}
+.product_item .tag{ position:absolute; left:10px; top:10px; width:46px; height:46px;}
+.product_item .p-buy{ display:none; position:absolute; left:0; bottom: 68px; width:270px; padding:10px; text-align:center; background: rgba(255, 255, 255, 0.9);  background:#fff \9;}
+.product_item .p-buy span {display: block; width: 270px; line-height: 16px; margin-bottom: 10px;}
+.product_item .btn-buy{ display:block; width:180px; height:25px; margin:0 auto; line-height:25px; color:#fff; background:#008742;
+-webkit-border-radius: 4px;
+-moz-border-radius:4px;
+border-radius:4px;}
+.product_item .btn-buy:hover{ color:#fff; background:#09964e;}
+.goods_list .current .p-buy{ display:block;}

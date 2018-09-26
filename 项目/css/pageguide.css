@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+.page-tips{ z-index:110; position:absolute;}
+#tips-my{ top:22px; left:-100px; width:178px; height:31px; line-height:31px;  padding:9px 0 0 10px; text-align:left; color:#fff; background:url(../images/page_tips.png) no-repeat;}
+#tips-quan{ top:50px; left:70px; width:178px; height:31px; line-height:31px;  padding:9px 0 0 10px; text-align:left; color:#fff; background:url(../images/page_tips.png) no-repeat;background-position:0 -41px;}
+#tips-all{ top:-28px; left:150px; width:138px; height:31px; line-height:31px; padding:0 0 9px 10px; text-align:left; color:#fff; background:url(../images/page_tips.png) no-repeat;background-position:0 -82px;}
+#tips-my a, #tips-quan a, #tips-all a{ position:absolute; top:3px; right:5px; display:block; width:16px; height:22px; background:url(../images/page_tips.png) no-repeat left top; background-position:-161px -86px;}
+#tips-my a, #tips-quan a{ top:12px;}

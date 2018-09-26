@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>列表页</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/list.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index-list.css" />
+    <script src="../js/jquery-1.10.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/common.js" type="text/javascript"></script>
+    <script src="../js/header.js" type="text/javascript"></script>
+    <script src="../js/list.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <!-- 顶部 -->
+    <div id="header">
+        <div class="header_site ">
+            <div class="wrap con clearfix">
+                <ul class="fl">
+                    <li>欢迎光临易果生鲜！</li>
+                    <li class="city">
+                        <div class="fl"><a href="#">配送至：</a></div>
+                        <div class="city-tit fl"><a class="fl city-name" href="#">广州<s></s></a></div>
+                    </li>
+                </ul>
+                <ul class="fr">
+                    <li>
+                        
+                        <a href="#">礼品兑换券入口</a>
+                    </li>
+                    <li class="pay"> 
+                        <a href="#">储值卡</a>
+                    </li>
+                    <li class="mobile">
+                        <div class="tit">
+                            <a href="#"><i></i>手机易果<s></s></a>
+                        </div>
+                        <div class="cont">
+                            <div class="item"../>
+                                <img src="../img/qrcode_app.jpg" alt="" width="125" height="125" />
+                                <span>手机app</span>
+                            </div>
+                            <div class="item">
+                                <img src="../img/qrcode_app.jpg" alt=""width="125" height="125" />
+                                <span>微信公众号</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="myyiguo">
+                        <div class="tit">
+                            <a href="#">
+                                <i></i>
+                                我的易果
+                                <s></s>
+                            </a>
+                            
+                        </div>
+                        <div class="cont">
+                            <a href="#">我的订单</a>
+                            <a href="#">我的优惠券</a>
+                            <a href="#">我的收藏</a>
+                            <a href="#">立即充值</a>
+                            <a href="#">预存款</a>
+                            <a href="#">余额查询</a>
+
+                        </div>
+                    </li>
+                    <li class="_logout" style="display:none">
+                        <a href="#" class="_logout" >[退出]</a>
+                    </li>
+                    <li>
+                        <a href="#" id="_loginname"></a>
+                    </li>
+                    <li class="_register">
+                        <a href="register.html">[注册]</a>
+                    </li>
+                    <li class="_login">
+                        <a href="login.html">[登录]</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header">
+            <div class="wrap con clearfix">
+                <div class="logo">
+                    <a href="../index.html"></a>
+                </div>
+                <div class="search">
+                    <div class="search-bar">
+                        <input type="text" id="keyword" name="keyword" class="search-input" placeholder="输入商品名／编号／拼音" style="color: rgb(153, 153, 153);"/>
+                        <input type="submit" class="search-btn" value="搜索"/>
+                    </div>
+                    <div class="search-keywords" id="keywords">
+                        <a href="#">奇异果</a>
+                        <a href="#" class="hot">奇异果</a>
+                        <a href="#">奇异果</a>
+                        <a href="#" class="hot">奇异果</a>
+                        <a href="#">奇异果</a>
+                        <a href="#" class="hot">奇异果</a>
+                        <a href="#">奇异果</a>
+                        <a href="#" class="hot">奇异果</a>
+                    </div>
+                </div>
+            <div class="shopping-cart">
+                <div class="shopping-btn">
+                    <a href="cart.html">
+                        <span class="totalNum">
+                        <b>0</b>
+                        </span>
+                        <b class="totalPrice">0.0</b>
+                    </a>
+                </div>
+               <ul>
+                   <li class="shopping-list">
+                       <div class="nogoods">购物车中还没有商品，赶紧选购吧！</div>
+                       <div class="goods" ></div>
+                   </li>
+               </ul>
+                    
+
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!-- 导航 -->
+    <div class="header-nav">
+        <div class="con clearfix">
+        <!--商品分类 开始-->
+            <div class="catalogs">
+            
+                <div class="catalogs-title">
+                    <a href="#">全部商品分类▼</a>
+                </div>
+                <div class="catalogs-list" >
+                    <div class="item">
+                        <h3 class="t02_channelhome"><a href="#"><i></i>国产水果<s>></s></a></h3>
+                        <div class="sub-item">
+                            <h4><a href="#">国产水果</a></h4>
+                            <div class="sub-list">
+                                                                                                    </div>
+                                    <div class="catalogs-ad">
+                                                <a href="#"><img src="../img/9570160763379517.png" alt="国产水果"></a>
+                                    </div>
+                        </div>
+                    </div>
+                        <div class="item">
+                            <h3 class="t05_channelhome"><a href="#"><i></i>精选肉类<s>></s></a></h3>
+                            <div class="sub-item">
+                                <h4><a href="#">精选肉类</a></h4>
+                                <div class="sub-list">
+                                            <a href="#"  >冰鲜肉</a>
+                                            <a href="#"  >羊肉</a>
+                                            <a href="#"  >香肠</a>
+                                            <a href="#"  >火腿/培根</a>
+                                            <a href="#"  >肉制品</a>
+                                </div>
+                                        <div class="catalogs-ad">
+                                                    <a href="#"><img src="../img/9570160763445053.png" alt="精选肉类"></a>
+                                        </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <h3 class="t06_channelhome"><a href="#"><i></i>禽类蛋品<s>></s></a></h3>
+                            <div class="sub-item">
+                                <h4><a href="#">禽类蛋品</a></h4>
+                                <div class="sub-list">
+                                            <a href="#"  >鸭</a>
+                                            <a href="#"  >鹅/鸽/特色禽类</a>
+                                            <a href="#"  >蛋</a>
+                                </div>
+                                        <div class="catalogs-ad">
+                                            <a href="#"><img src="../img/9570160763510589.png" alt="禽类蛋品"></a>
+                                        </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <h3 class="t04_channelhome"><a href="#"><i></i>海鲜水产<s>></s></a></h3>
+                            <div class="sub-item">
+                                <h4><a href="#">海鲜水产</a></h4>
+                                <div class="sub-list">
+                                            <a href="#"  >虾仁</a>
+                                            <a href="#"  >鱼</a>
+                                            <a href="#"  >三文鱼</a>
+                                            <a href="#"  >虾</a>
+                                            <a href="#"  >蟹</a>
+                                            <a href="#"  >贝</a>
+                                            <a href="#"  >活鲜</a>
+                                            <a href="#"  >海产干货</a>
+                                            <a href="#"  >特色海产</a>
+                                </div>
+                                        <div class="catalogs-ad">
+                                                    <a href="#"><img src="../img/9570160763576125.png" alt="海鲜水产"></a>
+                                        </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <h3 class="t08_channelhome"><a href="#"><i></i>乳品糕点<s>></s></a></h3>
+                            <div class="sub-item">
+                                <h4><a href="#">乳品糕点</a></h4>
+                                <div class="sub-list">
+                                </div>
+                                        <div class="catalogs-ad">
+                                                    <a href="#"><img src="../img/9570160763641661.png" alt="乳品糕点"></a>
+                                        </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <h3 class="t10_channelhome"><a href="#"><i></i>方便速食<s>></s></a></h3>
+                            <div class="sub-item">
+                                <h4><a href="#">方便速食</a></h4>
+                                <div class="sub-list">
+                                    <a href="#"  >西式主食</a>
+                                    <a href="#"  >中式主食</a>
+                                    <a href="#"  >火锅料</a>
+                                    <a href="#"  >熟食</a>
+                                    <a href="#"  >半成品菜</a>
+                                </div>
+                                <div class="catalogs-ad">
+                                    <a href="#"><img src="../img/9570160763838269.png" alt="方便速食"></a>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="item">
+                                <h3 class="t07_channelhome"><a href="#"><i></i>粮油杂货<s>></s></a></h3>
+                        <div class="sub-item">
+                            <h4><a href="#">粮油杂货</a></h4>
+                            <div class="sub-list">
+                                <a href="#" >杂粮</a>
+                                <a href="#" >面/面制品</a>
+                                <a href="#" >油</a>
+                                <a href="#" >调味料</a>
+                                <a href="#" >干货</a>
+                                <a href="#" >果干/零食</a>
+                            </div>
+                            <div class="catalogs-ad">
+                                <a href="#"><img src="../img/9570160757940029.png" alt="粮油杂货"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- 分类结束 -->
+<!-- 导航 -->
+            <div class="nav-items">
+                <ul>
+                    <li><a href="#">新品专区</a></li>
+                    <li><a href="#">优质生活</a></li>
+                    <li><a href="#">银行专区</a></li>
+                    <li><a href="#">菜谱专栏</a></li>
+                </ul>
+            </div>
+        
+
+
+        </div>
+    </div>
+        
+    <!-- 广告位 -->
+    <div class="con main clearfix">
+        <div class="page_ad clearfix">
+            <a class="big" href="#" target="_blank"><img src="../img/list/banner.jpg" width="1200" height="300"></a>
+            <a class="medium mr" href="#" target="_blank"><img src="../img/list/ad1.jpg" width="405" height="180"></a>
+            <a class="medium mr" href="#" target="_blank"><img src="../img/list/ad2.jpg" width="405" height="180"></a>
+            <a class="small mr" href="#" target="_blank"><img src="../img/list/ad3.jpg" width="180" height="180"></a>
+            <a class="small" href="#" target="_blank"><img src="../img/list/ad4.jpg" width="180" height="180"></a>
+        </div>
+        <div id="formCx" class="filter clearfix">
+            <div class="filter_sort">
+                <a class="nor on" href="javascript:void(0)" >默认排序</a>
+                <a class="sell" href="javascript:void(0)" >销量<i class="up"></i></a>
+                <a class="price" href="javascript:void(0)" >价格<i class="sort_down"></i></a>
+            </div>
+        </div>
+
+
+        <!--商品列表-->
+    <div class="goods_list clearfix" _category="02_channelhome" _page="2" _end="false" _maxpage="6">
+        <!-- <ul>
+                    <li class="product_item j_product" _type="0" _productid="1520906">
+                        <div class="p_img clearfix">
+                            <a  target="_blank">
+                                    <img src="images/9288727955645704_300.jpg" width="290" height="290" class="j_product_img">
+                            </a>
+                        </div>
+                        <div class="p_info clearfix">
+                            <div class="p_name"><a href="#" target="_blank">台湾麻豆文旦柚2个380g以上/个</a></div>
+                            <div class="p_price">
+                                <span class="price">
+                                    <strong>¥39.80</strong>
+                                </span>
+                                
+                            </div>
+                        </div>
+                        <div class="p-buy">
+                            <span>越丑越甜 香甜多汁</span>
+                                    <a class="btn-buy" href="#">暂时无货</a>
+                        </div>
+                    </li> -->
+                 <!--    <li class="product_item j_product" _type="0" _productid="1407379">
+                        <div class="p_img clearfix">
+                            <a href="#" target="_blank">
+                                    <img src="images/9288724259972296_300.jpg" width="290" height="290" class="j_product_img">
+                            </a>
+                        </div>
+                        <div class="p_info clearfix">
+                            <div class="p_name"><a href="#" target="_blank">山东玉菇甜瓜2个900g以上/个</a></div>
+                            <div class="p_price">
+                                <span class="price">
+                                    <strong>¥29.80</strong>
+                                </span>
+                                
+                            </div>
+                        </div>
+                        <div class="p-buy">
+                            <span>口口软嫩 果肉丰厚</span>
+                                    <a class="btn-buy" href="#">暂时无货</a>
+                        </div>
+                    </li>
+                    <li class="product_item j_product" _type="0" _productid="1525068">
+                        <div class="p_img clearfix">
+                            <a href="#" target="_blank">
+                                    <img src="images/9288730265986334_300.jpg" width="290" height="290" class="j_product_img">
+                            </a>
+                        </div>
+                        <div class="p_info clearfix">
+                            <div class="p_name"><a href="#" target="_blank">福建福安巨峰葡萄2盒(500g/盒)</a></div>
+                            <div class="p_price">
+                                <span class="price">
+                                    <strong>¥39.90</strong>
+                                </span>
+                                
+                            </div>
+                        </div>
+                        <div class="p-buy">
+                            <span>甜润多汁 个大宜剥皮</span>
+                                    <a class="btn-buy" href="#">暂时无货</a>
+                        </div>
+                    </li>
+                    <li class="product_item j_product" _type="0" _productid="1424249">
+                        <div class="p_img clearfix">
+                            <a href="#" target="_blank">
+                                    <img src="images/9288725895128299_300.jpg" width="290" height="290" class="j_product_img">
+                            </a>
+                        </div>
+                        <div class="p_info clearfix">
+                            <div class="p_name"><a href="#" target="_blank">福建漳州白心芭乐6个200g以上/个</a></div>
+                            <div class="p_price">
+                                <span class="price">
+                                    <strong>¥16.50</strong>
+                                </span>
+                                
+                            </div>
+                        </div>
+                        <div class="p-buy">
+                            <span>清甜爽口 大口啃食</span>
+                                    <a class="btn-buy" href="#">暂时无货</a>
+                        </div>
+                    </li>
+                    <li class="product_item j_product" _type="0" _productid="1417639">
+                        <div class="p_img clearfix">
+                            <a href="#" target="_blank">
+                                    <img src="images/9288727869826311_300.jpg" width="290" height="290" class="j_product_img">
+                            </a>
+                        </div>
+                        <div class="p_info clearfix">
+                            <div class="p_name"><a href="#" target="_blank">辽宁丹东菇娘果500g</a></div>
+                            <div class="p_price">
+                                <span class="price">
+                                    <strong>¥29.90</strong>
+                                </span>
+                                
+                            </div>
+                        </div>
+                        <div class="p-buy">
+                            <span>甜美小菇娘 多汁爽口</span>
+                                    <a class="btn-buy" href="#">暂时无货</a>
+                        </div>
+                    </li>
+                    <li class="product_item j_product" _type="0" _productid="1525331">
+                        <div class="p_img clearfix">
+                            <a href="#" target="_blank">
+                                    <img src="images/9288730272015646_300.jpg" width="290" height="290" class="j_product_img">
+                            </a>
+                        </div>
+                        <div class="p_info clearfix">
+                            <div class="p_name"><a href="#" target="_blank">新疆酥香7号蜜瓜1个1.5kg以上/个</a></div>
+                            <div class="p_price">
+                                <span class="price">
+                                    <strong>¥29.90</strong>
+                                </span>
+                                
+                            </div>
+                        </div>
+                        <div class="p-buy">
+                            <span>瓜肉脆 果汁足</span>
+                                        <a class="btn-buy" href="#" onclick="G.app.cart.module.addToCart(this,'1525331',1,app.referCart);">加入购物车</a>
+                        </div>
+                    </li>
+                    <li class="product_item j_product" _type="0" _productid="1405028">
+                        <div class="p_img clearfix">
+                            <a href="#" target="_blank">
+                                    <img src="images/9288723284370613_300.jpg" width="290" height="290" class="j_product_img">
+                            </a>
+                        </div>
+                        <div class="p_info clearfix">
+                            <div class="p_name"><a href="#" target="_blank">北京平谷仙桃1.2kg150g以上/个</a></div>
+                            <div class="p_price">
+                                <span class="price">
+                                    <strong>¥39.90</strong>
+                                </span>
+                                
+                            </div>
+                        </div>
+                        <div class="p-buy">
+                            <span></span>
+                                        <a class="btn-buy" href="#" onclick="G.app.cart.module.addToCart(this,'1405028',1,app.referCart);">加入购物车</a>
+                        </div>
+                    </li>
+                    <li class="product_item j_product" _type="0" _productid="1424725">
+                        <div class="p_img clearfix">
+                            <a href="#" target="_blank">
+                                    <img src="images/9288727979926792_300.jpg" width="290" height="290" class="j_product_img">
+                            </a>
+                        </div>
+                        <div class="p_info clearfix">
+                            <div class="p_name"><a href="#" target="_blank">四川凯特芒果(青皮)4个约600g/个</a></div>
+                            <div class="p_price">
+                                <span class="price">
+                                    <strong>¥79.90</strong>
+                                </span>
+                                
+                            </div>
+                        </div>
+                        <div class="p-buy">
+                            <span>硕大个头 啃食更过瘾</span>
+                                        <a class="btn-buy" href="#" onclick="G.app.cart.module.addToCart(this,'1424725',1,app.referCart);">加入购物车</a>
+                        </div>
+                    </li>
+                    <li class="product_item j_product" _type="0" _productid="1525367">
+                        <div class="p_img clearfix">
+                            <a href="#" target="_blank">
+                                    <img src="images/9288730272408862_300.jpg" width="290" height="290" class="j_product_img">
+                            </a>
+                        </div>
+                        <div class="p_info clearfix">
+                            <div class="p_name"><a href="#" target="_blank">新疆哈密瓜1个约1.9kg/个</a></div>
+                            <div class="p_price">
+                                <span class="price">
+                                    <strong>¥25.80</strong>
+                                </span>
+                                
+                            </div>
+                        </div>
+                        <div class="p-buy">
+                            <span>甜蜜爽脆 蜜汁四溢</span>
+                                        <a class="btn-buy" href="#" onclick="G.app.cart.module.addToCart(this,'1525367',1,app.referCart);">加入购物车</a>
+                        </div>
+                    </li>
+                    <li class="product_item j_product" _type="0" _productid="1518439">
+                        <div class="p_img clearfix">
+                            <a href="#" target="_blank">
+                                    <img src="images/9288727544112386_300.jpg" width="290" height="290" class="j_product_img">
+                            </a>
+                        </div>
+                        <div class="p_info clearfix">
+                            <div class="p_name"><a href="#" target="_blank">山东丰水梨6个约300g/个</a></div>
+                            <div class="p_price">
+                                <span class="price">
+                                    <strong>¥18.80</strong>
+                                </span>
+                                
+                            </div>
+                        </div>
+                        <div class="p-buy">
+                            <span>块头更大 汁水更足</span>
+                                    <a class="btn-buy" href="#">暂时无货</a>
+                        </div>
+                    </li>
+                    <li class="product_item j_product" _type="0" _productid="1424721">
+                        <div class="p_img clearfix">
+                            <a href="#" target="_blank">
+                                    <img src="images/9288727992444168_300.jpg" width="290" height="290" class="j_product_img">
+                            </a>
+                        </div>
+                        <div class="p_info clearfix">
+                            <div class="p_name"><a href="#" target="_blank">四川凯特芒果(黄皮)1个约600g/个</a></div>
+                            <div class="p_price">
+                                <span class="price">
+                                    <strong>¥20.90</strong>
+                                </span>
+                                
+                            </div>
+                        </div>
+                        <div class="p-buy">
+                            <span></span>
+                                    <a class="btn-buy" href="#">暂时无货</a>
+                        </div>
+                    </li>
+                    <li class="product_item j_product" _type="0" _productid="1522955">
+                        <div class="p_img clearfix">
+                            <a href="#" target="_blank">
+                                    <img src="images/9288729276359951_300.jpg" width="290" height="290" class="j_product_img">
+                            </a>
+                        </div>
+                        <div class="p_info clearfix">
+                            <div class="p_name"><a href="#" target="_blank">新疆淖毛湖精品西州蜜瓜1个约1.9kg/个</a></div>
+                            <div class="p_price">
+                                <span class="price">
+                                    <strong>¥26.80</strong>
+                                </span>
+                                
+                            </div>
+                        </div>
+                        <div class="p-buy">
+                            <span>果汁充沛 甜心实力派</span>
+                                        <a class="btn-buy" href="#" onclick="G.app.cart.module.addToCart(this,'1522955',1,app.referCart);">加入购物车</a>
+                        </div>
+                    </li>
+                    <li class="product_item j_product" _type="0" _productid="1518576">
+                        <div class="p_img clearfix">
+                            <a href="#" target="_blank">
+                                    <img src="images/9288727566066946_300.jpg" width="290" height="290" class="j_product_img">
+                            </a>
+                        </div>
+                        <div class="p_info clearfix">
+                            <div class="p_name"><a href="#" target="_blank">云南无籽青柠檬4个约100g/个</a></div>
+                            <div class="p_price">
+                                <span class="price">
+                                    <strong>¥15.80</strong>
+                                </span>
+                                
+                            </div>
+                        </div>
+                        <div class="p-buy">
+                            <span>皮薄无籽 泡个柠檬水</span>
+                                    <a class="btn-buy" href="#">暂时无货</a>
+                        </div>
+                    </li>
+                    <li class="product_item j_product" _type="0" _productid="1523475">
+                        <div class="p_img clearfix">
+                            <a href="#" target="_blank">
+                                    <img src="images/9288729660237076_300.jpg" width="290" height="290" class="j_product_img">
+                            </a>
+                        </div>
+                        <div class="p_info clearfix">
+                            <div class="p_name"><a href="#" target="_blank">软籽石榴9个礼盒装约300g/个</a></div>
+                            <div class="p_price">
+                                <span class="price">
+                                    <strong>¥199.00</strong>
+                                </span>
+                                
+                            </div>
+                        </div>
+                        <div class="p-buy">
+                            <span>软籽品种 甜度更高</span>
+                                        <a class="btn-buy" href="#" onclick="G.app.cart.module.addToCart(this,'1523475',1,app.referCart);">加入购物车</a>
+                        </div>
+                    </li>
+                    <li class="product_item j_product" _type="0" _productid="1525404">
+                        <div class="p_img clearfix">
+                            <a href="#" target="_blank">
+                                    <img src="images/9288730132849948_300.jpg" width="290" height="290" class="j_product_img">
+                            </a>
+                        </div>
+                        <div class="p_info clearfix">
+                            <div class="p_name"><a href="#" target="_blank">宁夏帅童西瓜1个1.5kg以上/个</a></div>
+                            <div class="p_price">
+                                <span class="price">
+                                    <strong>¥29.90</strong>
+                                </span>
+                                
+                            </div>
+                        </div>
+                        <div class="p-buy">
+                            <span>大口吃 不吐籽 皮薄多汁</span>
+                                    <a class="btn-buy" href="#">暂时无货</a>
+                        </div>
+                    </li>
+                    <li class="product_item j_product" _type="0" _productid="1531229">
+                        <div class="p_img clearfix">
+                            <a href="#" target="_blank">
+                                    <img src="images/9288731003364651_300.jpg" width="290" height="290" class="j_product_img">
+                            </a>
+                        </div>
+                        <div class="p_info clearfix">
+                            <div class="p_name"><a href="#" target="_blank">广东小香果芭乐1盒(1kg/盒)</a></div>
+                            <div class="p_price">
+                                <span class="price">
+                                    <strong>¥28.80</strong>
+                                </span>
+                                
+                            </div>
+                        </div>
+                        <div class="p-buy">
+                            <span>口感软滑 果肉丰厚</span>
+                                        <a class="btn-buy" href="#" onclick="G.app.cart.module.addToCart(this,'1531229',1,app.referCart);">加入购物车</a>
+                        </div>
+                    </li>
+                    <li class="product_item j_product" _type="0" _productid="1524328">
+                        <div class="p_img clearfix">
+                            <a href="#" target="_blank">
+                                    <img src="images/9288729799271702_300.jpg" width="290" height="290" class="j_product_img">
+                            </a>
+                        </div>
+                        <div class="p_info clearfix">
+                            <div class="p_name"><a href="#" target="_blank">福建琯溪三红柚4个约1kg/个</a></div>
+                            <div class="p_price">
+                                <span class="price">
+                                    <strong>¥148.00</strong>
+                                </span>
+                                
+                            </div>
+                        </div>
+                        <div class="p-buy">
+                            <span>脆嫩细滑 柚香清新</span>
+                                        <a class="btn-buy" href="#" onclick="G.app.cart.module.addToCart(this,'1524328',1,app.referCart);">加入购物车</a>
+                        </div>
+                    </li>
+                    <li class="product_item j_product" _type="0" _productid="1424729">
+                        <div class="p_img clearfix">
+                            <a href="#" target="_blank">
+                                    <img src="images/9288727870940423_300.jpg" width="290" height="290" class="j_product_img">
+                            </a>
+                        </div>
+                        <div class="p_info clearfix">
+                            <div class="p_name"><a href="#" target="_blank">四川吉禄芒果4个约300g/个</a></div>
+                            <div class="p_price">
+                                <span class="price">
+                                    <strong>¥39.90</strong>
+                                </span>
+                                
+                            </div>
+                        </div>
+                        <div class="p-buy">
+                            <span>大口啃肉 细腻多汁</span>
+                                        <a class="btn-buy" href="#" onclick="G.app.cart.module.addToCart(this,'1424729',1,app.referCart);">加入购物车</a>
+                        </div>
+                    </li>
+                    <li class="product_item j_product" _type="0" _productid="1520122">
+                        <div class="p_img clearfix">
+                            <a href="#" target="_blank">
+                                    <img src="images/9288727903053063_300.jpg" width="290" height="290" class="j_product_img">
+                            </a>
+                        </div>
+                        <div class="p_info clearfix">
+                            <div class="p_name"><a href="#" target="_blank">新疆库尔勒精选红香酥梨3kg约120g/个</a></div>
+                            <div class="p_price">
+                                <span class="price">
+                                    <strong>¥45.80</strong>
+                                </span>
+                                
+                            </div>
+                        </div>
+                        <div class="p-buy">
+                            <span>西域“小公主”</span>
+                                    <a class="btn-buy" href="#">暂时无货</a>
+                        </div>
+                    </li>
+                    <li class="product_item j_product" _type="0" _productid="1428013">
+                        <div class="p_img clearfix">
+                            <a href="#" target="_blank">
+                                    <img src="images/9288726859359483_300.jpg" width="290" height="290" class="j_product_img">
+                            </a>
+                        </div>
+                        <div class="p_info clearfix">
+                            <div class="p_name"><a href="#" target="_blank">山东巨峰葡萄1kg</a></div>
+                            <div class="p_price">
+                                <span class="price">
+                                    <strong>¥23.90</strong>
+                                </span>
+                                
+                            </div>
+                        </div>
+                        <div class="p-buy">
+                            <span>皮薄柔嫩 酸甜适中</span>
+                                    <a class="btn-buy" href="#">暂时无货</a>
+                        </div>
+                    </li>-->
+        <!-- </ul>  -->
+        
+    </div>
+    <div class="page">
+            
+        </div>
+</div>
+
+    
+    
+    <div class="footer_service">
+
+    <div class="con clearfix">
+
+        <ul>
+
+            <li class="s1">
+
+                <b>全球精选</b>
+
+                <span>一站式生鲜购物方案</span>
+
+            </li>
+
+            <li class="s2">
+
+                <b>多仓直发</b>
+
+                <span>特有次日达配送服务</span>
+
+            </li>
+
+            <li class="s3">
+
+                <b>源头直采</b>
+
+                <span>精选正宗品质好食材</span>
+
+            </li>
+
+            <li class="s4">
+
+                <b>天天底价</b>
+
+                <span>会员专属优惠购不停</span>
+
+            </li>
+
+        </ul>
+
+    </div>
+
+</div>
+
+
+
+
+        <!-- 底部 -->
+
+    <div class="footer clearfix">
+
+        <div class="con">
+
+            <dl class="col1">
+
+                <dt>新手指南</dt>
+
+                <dd>
+
+                    <p><a href="#">账户注册</a></p>
+
+                    <p><a href="#">购物流程</a></p>
+
+                    <p><a href="#">订购方式</a></p>
+
+                    <p><a href="#">悠币说明</a></p>
+                </dd>
+
+            </dl>
+
+            <dl class="col2">
+
+                <dt>付款方式</dt>
+
+                <dd>
+
+                    <p><a href="#">支付方式</a>/<a href="#">发票说明</a></p>
+
+                    <p><a href="#">充值说明</a><a href="#">/储值卡说明</a></p>
+
+                    <p><a href="#">优惠代码/礼品卡说明</a></p>
+
+                    <p><a href="#">卡券购买章程</a></p>
+
+                </dd>
+
+            </dl>
+
+            <dl class="col3">
+
+                <dt>配送方式</dt>
+
+                <dd>
+
+                    <p><a href="#">配送运费</a></p>
+
+                    <p><a href="#">配送范围</a></p>
+
+                    <p><a href="#">配送时间</a></p>
+
+                </dd>
+
+            </dl>
+
+            <dl class="col4">
+
+                <dt>售后服务</dt>
+
+                <dd>
+
+                    <p><a href="#">退换货政策</a></p>
+
+                    <p><a href="#">退换货流程</a></p>
+
+                    <p><a href="#">常见问题</a></p>
+
+                    <p><a href="#">极速退款</a><p>
+
+                    <p><a href="#">投诉与建议</a></p>
+
+                </dd>
+
+            </dl>
+
+            <dl class="col5">
+
+                <dt>关于我们</dt>
+
+                <dd>
+
+                    <p><a href="#">公司介绍</a></p>
+
+                    <p><a href="#">联系我们</a></p>
+
+                    <p><a href="#">业务合作</a></p>
+
+                    <p><a href="#">诚信举报</a></p>
+
+                    <p><a href="#"   rel="nofollow">人才招聘</a></p>
+
+                    <p><a href="#">友情链接</a></p>
+
+                    
+
+                </dd>
+
+            </dl>
+
+            <div class="service"><span>客服热线 400-000-7788 企业采购或团购，请转2号键咨询</span><span>周一至周日 9:00-21:00</span></div>
+
+            <div class="copyright">
+
+                <p>所有图片均受著作权保护，未经许可任何单位与个人不得使用、复制、转载、摘编，违者必究法律责任。</p>
+
+                <p> <a href="#"   rel="nofollow">沪ICP备09008015号 </a>  Copyright © 2005-2018 <a href="#">上海易果电子商务有限公司</a>版权所有</p>
+
+                <p class="authentication">
+
+                    <a href="#"   rel="nofollow"><img src="../img/register/153685368061665897_121x29.png"></a>
+
+                    <a href="#"   rel="nofollow"><img src="../img/register/2517491005058doc.png" height="47"></a>
+
+                    <a   href="#" style="display: inline-block; text-decoration: none; height: 20px; line-height: 20px;"><img src="../img/register/picp_bg.png" style="float: left;height:47px;" /><span style="float: left;  margin: 0px 0px 0px 5px; color: #939393;">沪公网安备 31010502000002号</span></a>
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="sidebar">
+        <a href="javascript:void(0)" class="s-btn goTop" style="display: block"></a>
+    </div>  
+
+</body>
+</html>

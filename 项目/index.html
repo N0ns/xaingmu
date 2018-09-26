@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>易果生鲜Yiguo网_全球精选_生鲜果蔬 品质食材_易果网yiguo.com</title>
+    <meta name="Keywords" content="水果,进口水果,国产水果,蔬菜,肉类,海鲜,禽蛋,粮油,甜点,葡萄酒,易果网">
+    <meta name="Description" content="易果生鲜Yiguo网是专业的进口生鲜水果食品网络购物平台，为您精选全球3000多种生鲜果蔬品质食材，在体验网上购物新模式的同时享尽各国新鲜美味，易果网是您悠悦生活的品质之选。">
+    <meta property="qc:admins" content="15753240576117576375" />
+    <link rel="shortcut icon" href="http://static01.yiguo.com/common/images/yiguo.ico" />
+    <link rel="dns-prefetch" href="//img01.yiguoimg.com" />
+    <link rel="dns-prefetch" href="//img02.yiguoimg.com" />
+    <link rel="dns-prefetch" href="//img03.yiguoimg.com" />
+    <link rel="dns-prefetch" href="//img04.yiguoimg.com" />
+    <link rel="dns-prefetch" href="//img05.yiguoimg.com" />
+    <link rel="dns-prefetch" href="//img06.yiguoimg.com" />
+    <link rel="dns-prefetch" href="//img07.yiguoimg.com" />
+    <link rel="dns-prefetch" href="//img08.yiguoimg.com" />
+    <link href="css/public.css?v20160816" rel="stylesheet" type="text/css">
+    <link href="css/customer.css" rel="stylesheet" type="text/css">
+    <link href="css/pageguide.css" rel="stylesheet" type="text/css">
+
+    
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+
+    <!--IE6png兼容-->
+    <!--[if IE 6]>
+    <script type="text/javascript" src="http://static01.yiguo.com/www/js/DD_belatedPNG.js" ></script>
+    <script type="text/javascript" src="http://static01.yiguo.com/www/js/ie6_loading.js"></script>
+    <![endif]-->
+
+    <script src="js/jquery.js"></script>
+    <script>
+        yg_x = new Date();
+        var yw_data = {};
+    </script>
+    <script type="text/javascript">
+        var _bdhm_top = 0;
+        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        var _bdhm_tim = new Image(1, 1);
+        _bdhm_tim.id = "bdhmPerimg";
+        _bdhm_tim.src = _bdhmProtocol + "hm.baidu.com/_tt.gif?si=36a486fbdec46fc52ca666dd2e98f260&rnd=" + Math.round(Math.random() * 2147483647);
+        _bdhm_tim.onload = function () { _bdhm_top = 1; }
+    </script>
+    <!-- start Dplus -->
+    <script type="text/javascript">
+        !function (a, b) {
+            if (!b.__SV) {
+                var c, d, e, f;
+                window.dplus = b, b._i = [], b.init = function (a, c, d) {
+                    function g(a, b) {
+                        var c = b.split(".");
+                        2 == c.length && (a = a[c[0]], b = c[1]), a[b] = function () { a.push([b].concat(Array.prototype.slice.call(arguments, 0))) }
+                    }
+
+                    var h = b;
+                    for ("undefined" != typeof d ? h = b[d] = [] : d = "dplus", h.people = h.people || [], h.toString = function (a) {
+                        var b = "dplus";
+                        return "dplus" !== d && (b += "." + d), a || (b += " (stub)"), b
+                    }, h.people.toString = function () { return h.toString(1) + ".people (stub)" }, e = "disable track track_links track_forms register unregister get_property identify clear set_config get_config get_distinct_id track_pageview register_once track_with_tag time_event people.set people.unset people.delete_user".split(" "), f = 0; f < e.length; f++) g(h, e[f]);
+                    b._i.push([a, c, d])
+                }, b.__SV = 1.1, c = a.createElement("script"), c.type = "text/javascript", c.charset = "utf-8", c.async = !0, c.src = "//w.cnzz.com/dplus.php?token=1915ef989c5aence66fa", d = a.getElementsByTagName("script")[0], d.parentNode.insertBefore(c, d)
+            }
+        }(document, window.dplus || []), dplus.init("1915ef989c5aence66fa");
+    </script>
+    <!-- end Dplus -->
+    <script type="text/javascript" src="js/ygm.dplus-0.5.js"></script>
+    
+</head>
+<body id="body">
+    <div class="w">
+        <div id="topads">
+            <script id="topadstpl" type="text/x-handlebars-template">
+                {{#TopAds}}
+                <a href="{{Link}}">
+                    <img src="other/{{Image}}" style="width:100%;" />
+                </a>
+                {{/TopAds}}
+            </script>
+        </div>
+        <!------- 顶部工具栏 ------->
+        <div class="site-nav">
+            <div class="wrap">
+                <ul class="fl">
+                    <li>欢迎光临易果生鲜！</li>
+                    <!--送货城市 开始-->
+                    <li class="city clearfix">
+                        <div class="city-sz">配送至：</div>
+                        <div class="city-tit">
+                            <a class="city-name" href="javascript:void(0)">广州市<s></s></a>
+                        </div>
+                        <div class="city-con" id="citylist">
+                            
+<script id="_citytpl" type="text/x-handlebars-template">
+
+    <div class="headline">
+        <a href="javascript:;" v="64" aid="00000000-0000-0000-0000-000000000000">全国其它城市&gt;&gt;</a> 请根据您的收货地址选择
+    </div>
+    <div class="city-hot">
+        <span><i></i>热门城市</span>
+        {{#each HotCity}}
+        <a href="javascript:;" v="{{WebCode}}" aid="{{AreaId}}" _type="{{DeliveryType}}">{{AreaName}}</a>
+        {{/each}}
+    </div>
+    <p class="citytab"><span class="active">ABCDE</span><span>FGHIJ</span><span>KLMNO</span><span class="">PQRST</span><span class="">UVWXYZ</span></p>
+    <div class="citylist active">
+        {{#each City1}}
+        <dl>
+            <dt>{{@key}}</dt>
+            <dd>
+                {{#each this}}
+                {{#equal WebShow 2}}
+                <a href="javascript:;" class="hot" v="{{WebCode}}" aid="{{AreaId}}" _type="{{DeliveryType}}"><strong>{{AreaName}}</strong></a>
+                {{else}}
+                <a href="javascript:;" v="{{WebCode}}" aid="{{AreaId}}" _type="{{DeliveryType}}">{{AreaName}}</a>
+                {{/equal}}
+                {{/each}}
+            </dd>
+        </dl>
+        {{/each}}
+    </div>
+    <div class="citylist ">
+        {{#each City2}}
+        <dl>
+            <dt>{{@key}}</dt>
+            <dd>
+                {{#each this}}
+                {{#equal WebShow 2}}
+                <a href="javascript:;" class="hot" v="{{WebCode}}" aid="{{AreaId}}" _type="{{DeliveryType}}"><strong>{{AreaName}}</strong></a>
+                {{else}}
+                <a href="javascript:;" v="{{WebCode}}" aid="{{AreaId}}" _type="{{DeliveryType}}">{{AreaName}}</a>
+                {{/equal}}
+                {{/each}}
+            </dd>
+        </dl>
+        {{/each}}
+    </div>
+    <div class="citylist ">
+        {{#each City3}}
+        <dl>
+            <dt>{{@key}}</dt>
+            <dd>
+                {{#each this}}
+                {{#equal WebShow 2}}
+                <a href="javascript:;" class="hot" v="{{WebCode}}" aid="{{AreaId}}" _type="{{DeliveryType}}"><strong>{{AreaName}}</strong></a>
+                {{else}}
+                <a href="javascript:;" v="{{WebCode}}" aid="{{AreaId}}" _type="{{DeliveryType}}">{{AreaName}}</a>
+                {{/equal}}
+                {{/each}}
+            </dd>
+        </dl>
+        {{/each}}
+    </div>
+    <div class="citylist ">
+        {{#each City4}}
+        <dl>
+            <dt>{{@key}}</dt>
+            <dd>
+                {{#each this}}
+                {{#equal WebShow 2}}
+                <a href="javascript:;" class="hot" v="{{WebCode}}" aid="{{AreaId}}" _type="{{DeliveryType}}"><strong>{{AreaName}}</strong></a>
+                {{else}}
+                <a href="javascript:;" v="{{WebCode}}" aid="{{AreaId}}" _type="{{DeliveryType}}">{{AreaName}}</a>
+                {{/equal}}
+                {{/each}}
+            </dd>
+        </dl>
+        {{/each}}
+    </div>
+    <div class="citylist ">
+        {{#each City5}}
+        <dl>
+            <dt>{{@key}}</dt>
+            <dd>
+                {{#each this}}
+                {{#equal WebShow 2}}
+                <a href="javascript:;" class="hot" v="{{WebCode}}" aid="{{AreaId}}" _type="{{DeliveryType}}"><strong>{{AreaName}}</strong></a>
+                {{else}}
+                <a href="javascript:;" v="{{WebCode}}" aid="{{AreaId}}" _type="{{DeliveryType}}">{{AreaName}}</a>
+                {{/equal}}
+                {{/each}}
+            </dd>
+        </dl>
+        {{/each}}
+    </div>
+
+</script>
+                        </div>
+                    </li>
+                    <!--送货城市 结束-->
+                </ul>
+                <ul class="fr">
+
+                    
+                    <li class="TEL"><a rel="nofollow" href="http://home.yiguo.com/Trade/OnlineDelivery" target="_blank"><i></i>礼品兑换券入口</a></li>
+                    <li class="pay"><a rel="nofollow" href="http://home.yiguo.com/Recharge/Index" target="_blank"><i></i>储值卡</a></li>
+
+                    <li class="mobile">
+                        <div class="tit"><a href="javascript:void(0)"><i></i>手机易果<s></s></a></div>
+                        <div class="con">
+                            <div class="item"><img src="images/qrcode_app.jpg" width="125" height="125"><span>扫一扫下载APP</span></div>
+                            <div class="item"><img src="images/qrcode_wechat.jpg" width="125" height="125"><span>易果生鲜微信</span></div>
+                        </div>
+                    </li>
+                    <li class="myyiguo">
+                        
+                        <div class="tit"><a rel="nofollow" href="http://home.yiguo.com" target="_blank"><i></i>我的易果<s></s></a></div>
+                        <div class="con">
+                            <a rel="nofollow" href="http://home.yiguo.com/Trade/OrderList">我的订单</a>
+                            <a rel="nofollow" href="http://home.yiguo.com/Trade/MyCoupons">我的优惠券<b id="coupon">0</b></a>
+                            <a rel="nofollow" href="http://home.yiguo.com/Trade/MyCollection">我的收藏</a>
+                            <a rel="nofollow" href="http://home.yiguo.com/Trade/UMoney">我的悠币</a>
+                            <a rel="nofollow" href="http://home.yiguo.com/Trade/BackOrder">我的退换货</a>
+                            <a rel="nofollow" href="http://home.yiguo.com/Account/Balance">预存款查询</a>
+                            <a rel="nofollow" href="http://event.yiguo.com/activity/">立即充值</a>
+                            <a rel="nofollow" href="javascript:;" class="logout" style="display:none;">退出</a>
+                            
+                        </div>
+                    </li>
+                    <li id="_logout" style="display:none"><a href="javascript:;" class="logout">[退出]</a></li>
+                    <li id="_loginname" style="display:none"><a rel="nofollow" href="http://home.yiguo.com"></a></li>
+                    <li id="_register" style="display:none"><a rel="nofollow" href="https://login.yiguo.com/Register?url=http://www.yiguo.com/">[注册]</a></li>
+                    <li id="_login" style="display:none">
+                        <a rel="nofollow" href="https://login.yiguo.com/ub/login.aspx?url=http://www.yiguo.com/">[登录]</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!------- 头部 ------->
+        <div class="header clearfix">
+            <div class="wrap">
+                <div class="logo">
+                    <a href="http://www.yiguo.com"></a>
+                </div>
+                <!--搜索 开始-->
+                <div class="search" style="position:relative;">
+                    <div class="search-bar clearfix">
+                        <input type="text" id="keyword" name="keyword" class="search-input" value="输入商品名／编号／拼音" onfocus=" if (this.value == '输入商品名／编号／拼音') {this.value = '';this.style.color = '#000';} " onblur=" if (this.value == '') {this.value = '输入商品名／编号／拼音';this.style.color = '#999';} " style="color: rgb(153, 153, 153);">
+                        <input class="search-btn" type="submit" value="搜索">
+                    </div>
+                    <ul class="hide" id="shelper" style="display: none;"></ul>
+                    <div class="search-keywords" id="keywords">
+                        <script id="keywordstpl" type="text/x-handlebars-template">
+                            {{#KeyWords}}
+                            {{#equal IsImportant true}}
+                            <a href="{{Link}}" class="hot" target="_blank">{{Text}}</a>
+                            {{else}}
+                            <a href="{{Link}}" target="_blank">{{Text}}</a>
+                            {{/equal}}
+                            {{/KeyWords}}
+                        </script>
+                    </div>
+                </div>
+                <!--购物车 开始-->
+                <div class="shopping-cart">
+    <dl>
+        <dt class="shopping-btn"><a href="http://cart.yiguo.com/"> <span class="totleNum"><b>0</b></span><b class="totlePrice">0.0</b></a></dt>
+        <dd class="shopping-list">
+            <div class="spacer"></div>
+            <div class="nogoods" style="display:none;">
+                购物车中还没有商品，赶紧选购吧！
+            </div>
+            <div class="goods">
+                <p id="deliveryType" style="display:none;">满100元包邮！</p>
+                <ul></ul>
+                <div class="price-total">
+                    <div><span class="totleNum">共<b>0</b>件商品</span><span>共计<b class="totlePrice">¥0.00</b></span></div>
+                    <div><a href="http://cart.yiguo.com/" class="settleup">去购物车</a></div>
+                </div>
+            </div>
+        </dd>
+    </dl>
+</div>
+                <!--购物车 结束-->
+            </div>
+        </div>
+        
+
+<div class="header-nav">
+    <div class="wrap">
+        <!--商品分类 开始-->
+        <div class="catalogs">
+            
+            <div class="catalogs-title"><a href="javascript:;">全部商品分类▼</a></div>
+            <div class="catalogs-list" style="display:none">
+                        <div class="item">
+                            <h3 class="t02_channelhome"><a href="http://www.yiguo.com/products/02_channelhome.html"><i></i>国产水果<s>></s></a></h3>
+                            <div class="sub-item">
+                                <h4><a href="http://www.yiguo.com/products/02_channelhome.html">国产水果</a></h4>
+                                <div class="sub-list">
+                                                                                                        </div>
+                                        <div class="catalogs-ad">
+                                                    <a href="http://www.yiguo.com/products/02_channelhome.html"><img src="images/9570160763379517.png" alt="国产水果"></a>
+                                        </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <h3 class="t05_channelhome"><a href="http://www.yiguo.com/products/05_channelhome.html"><i></i>精选肉类<s>></s></a></h3>
+                            <div class="sub-item">
+                                <h4><a href="http://www.yiguo.com/products/05_channelhome.html">精选肉类</a></h4>
+                                <div class="sub-list">
+                                                                                                                    <a href="http://www.yiguo.com/products/0510_niupai.html" target="_blank">牛排</a>
+                                            <a href="http://www.yiguo.com/products/0509_binxianrou.html" target="_blank">冰鲜肉</a>
+                                            <a href="http://www.yiguo.com/products/0504_yangrou.html" target="_blank">羊肉</a>
+                                            <a href="http://www.yiguo.com/products/0505_xiangchang.html" target="_blank">香肠</a>
+                                            <a href="http://www.yiguo.com/products/0506_huotui.html" target="_blank">火腿/培根</a>
+                                            <a href="http://www.yiguo.com/products/0507_rouzhipin.html" target="_blank">肉制品</a>
+                                </div>
+                                        <div class="catalogs-ad">
+                                                    <a href="http://www.yiguo.com/products/05_channelhome.html"><img src="images/9570160763445053.png" alt="精选肉类"></a>
+                                        </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <h3 class="t06_channelhome"><a href="http://www.yiguo.com/products/06_channelhome.html"><i></i>禽类蛋品<s>></s></a></h3>
+                            <div class="sub-item">
+                                <h4><a href="http://www.yiguo.com/products/06_channelhome.html">禽类蛋品</a></h4>
+                                <div class="sub-list">
+                                                                                                                    <a href="http://www.yiguo.com/products/0601_ji.html" target="_blank">鸡</a>
+                                            <a href="http://www.yiguo.com/products/0602_ya.html" target="_blank">鸭</a>
+                                            <a href="http://www.yiguo.com/products/0603_egeteseqinlei.html" target="_blank">鹅/鸽/特色禽类</a>
+                                            <a href="http://www.yiguo.com/products/0604_dan.html" target="_blank">蛋</a>
+                                </div>
+                                        <div class="catalogs-ad">
+                                                    <a href="http://www.yiguo.com/products/06_channelhome.html"><img src="images/9570160763510589.png" alt="禽类蛋品"></a>
+                                        </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <h3 class="t04_channelhome"><a href="http://www.yiguo.com/products/04_channelhome.html"><i></i>海鲜水产<s>></s></a></h3>
+                            <div class="sub-item">
+                                <h4><a href="http://www.yiguo.com/products/04_channelhome.html">海鲜水产</a></h4>
+                                <div class="sub-list">
+                                                                                                                    <a href="http://www.yiguo.com/products/0411_yinxueyu.html" target="_blank">银鳕鱼</a>
+                                            <a href="http://www.yiguo.com/products/0410_xiaren.html" target="_blank">虾仁</a>
+                                            <a href="http://www.yiguo.com/products/0401_yu.html" target="_blank">鱼</a>
+                                            <a href="http://www.yiguo.com/products/0402_sanwenyu.html" target="_blank">三文鱼</a>
+                                            <a href="http://www.yiguo.com/products/0403_xia.html" target="_blank">虾</a>
+                                            <a href="http://www.yiguo.com/products/0404_xie.html" target="_blank">蟹</a>
+                                            <a href="http://www.yiguo.com/products/0405_beilei.html" target="_blank">贝</a>
+                                            <a href="http://www.yiguo.com/products/0406_huoxian.html" target="_blank">活鲜</a>
+                                            <a href="http://www.yiguo.com/products/0407_haichanganhuo.html" target="_blank">海产干货</a>
+                                            <a href="http://www.yiguo.com/products/0408_tesehaichan.html" target="_blank">特色海产</a>
+                                </div>
+                                        <div class="catalogs-ad">
+                                                    <a href="http://www.yiguo.com/products/04_channelhome.html"><img src="images/9570160763576125.png" alt="海鲜水产"></a>
+                                        </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <h3 class="t08_channelhome"><a href="http://www.yiguo.com/products/08_channelhome.html"><i></i>乳品糕点<s>></s></a></h3>
+                            <div class="sub-item">
+                                <h4><a href="http://www.yiguo.com/products/08_channelhome.html">乳品糕点</a></h4>
+                                <div class="sub-list">
+                                                                                                                    <a href="http://www.yiguo.com/products/0805_mianbao.html" target="_blank">面包</a>
+                                </div>
+                                        <div class="catalogs-ad">
+                                                    <a href="http://www.yiguo.com/products/08_channelhome.html"><img src="images/9570160763641661.png" alt="乳品糕点"></a>
+                                        </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <h3 class="t10_channelhome"><a href="http://www.yiguo.com/products/10_channelhome.html"><i></i>方便速食<s>></s></a></h3>
+                            <div class="sub-item">
+                                <h4><a href="http://www.yiguo.com/products/10_channelhome.html">方便速食</a></h4>
+                                <div class="sub-list">
+                                                                                                                    <a href="http://www.yiguo.com/products/1001_lengdongdianxin.html" target="_blank">冷冻点心</a>
+                                            <a href="http://www.yiguo.com/products/1002_xishizhushi.html" target="_blank">西式主食</a>
+                                            <a href="http://www.yiguo.com/products/1003_zhongshizhushi.html" target="_blank">中式主食</a>
+                                            <a href="http://www.yiguo.com/products/1004_huoguoliao.html" target="_blank">火锅料</a>
+                                            <a href="http://www.yiguo.com/products/1005_lengcangshushi.html" target="_blank">熟食</a>
+                                            <a href="http://www.yiguo.com/products/1006_banchengpincai.html" target="_blank">半成品菜</a>
+                                </div>
+                                        <div class="catalogs-ad">
+                                                    <a href="http://www.yiguo.com/products/10_channelhome.html"><img src="images/9570160763838269.png" alt="方便速食"></a>
+                                        </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <h3 class="t07_channelhome"><a href="http://www.yiguo.com/products/07_channelhome.html"><i></i>粮油杂货<s>></s></a></h3>
+                            <div class="sub-item">
+                                <h4><a href="http://www.yiguo.com/products/07_channelhome.html">粮油杂货</a></h4>
+                                <div class="sub-list">
+                                                                                                                    <a href="http://www.yiguo.com/products/0701_mi.html" target="_blank">米</a>
+                                            <a href="http://www.yiguo.com/products/0702_zaliang.html" target="_blank">杂粮</a>
+                                            <a href="http://www.yiguo.com/products/0703_mianmianzhipin.html" target="_blank">面/面制品</a>
+                                            <a href="http://www.yiguo.com/products/0704_you.html" target="_blank">油</a>
+                                            <a href="http://www.yiguo.com/products/0705_tiaoweiliao.html" target="_blank">调味料</a>
+                                            <a href="http://www.yiguo.com/products/0706_ganhuo.html" target="_blank">干货</a>
+                                            <a href="http://www.yiguo.com/products/0707_guoganlingshi.html" target="_blank">果干/零食</a>
+                                </div>
+                                        <div class="catalogs-ad">
+                                                    <a href="http://www.yiguo.com/products/07_channelhome.html"><img src="images/9570160757940029.png" alt="粮油杂货"></a>
+                                        </div>
+                            </div>
+                        </div>
+            </div>
+        </div>
+        <!--商品分类 结束-->
+    </div>
+</div>
+<!------- 轮播广告 ------->
+<div class="banner-slider">
+    <ul class="b-slider">
+                <li style="background:#efefef;" _begintime="2018/9/11 10:00:00" _endtime="2018/9/18 9:59:59">
+                    <a href="http://www.yiguo.com/activity/sale/zhongqiuhn" target="_blank">
+                        <div class="slider-wrap">
+                            <span class="banner-text">
+                                <img height="500" />
+                            </span>
+                        </div>
+                        <div class="banner-main" style="background:url(http://img06.yiguoimg.com/d/others/180907/9288730794468647.jpg)"></div>
+                    </a>
+                </li>
+                <li style="background:#efefef;" _begintime="2018/8/13 10:00:00" _endtime="2018/9/30 11:38:53">
+                    <a href="http://www.yiguo.com/activity/sale/jpqygsq" target="_blank">
+                        <div class="slider-wrap">
+                            <span class="banner-text">
+                                <img height="500" />
+                            </span>
+                        </div>
+                        <div class="banner-main" style="background:url(http://img06.yiguoimg.com/d/others/180912/9288731054384428.jpg)"></div>
+                    </a>
+                </li>
+                <li style="background:#efefef;" _begintime="2018/9/10 10:19:35" _endtime="2018/9/17 23:19:37">
+                    <a href="http://www.yiguo.com/activity/sale/Namako" target="_blank">
+                        <div class="slider-wrap">
+                            <span class="banner-text">
+                                <img height="500" />
+                            </span>
+                        </div>
+                        <div class="banner-main" style="background:url(http://img07.yiguoimg.com/d/others/180911/9288731003495723.jpg)"></div>
+                    </a>
+                </li>
+                <li style="background:#efefef;" _begintime="2018/9/10 11:02:33" _endtime="2018/9/16 11:02:34">
+                    <a href="http://www.yiguo.com/activity/sale/xygghn" target="_blank">
+                        <div class="slider-wrap">
+                            <span class="banner-text">
+                                <img height="500" />
+                            </span>
+                        </div>
+                        <div class="banner-main" style="background:url(http://img05.yiguoimg.com/d/others/180910/9288730937795882.jpg)"></div>
+                    </a>
+                </li>
+    </ul>
+    <div class="b-btn">
+        <a class="prev" href="javascript:void(0)"></a>
+        <a class="next" href="javascript:void(0)"></a>
+    </div>
+    <div class="b-dot">
+        <ul></ul>
+    </div>
+</div>
+<!------- 活动、广告位 ------->
+
+    <div class="wrap ad-item">
+        <ul>
+                <li>
+                    <a href="http://www.yiguo.com/activity/sale/3202" target="_blank">
+                        <img src="images/9288692688134243.jpg" width="290">
+                            <p><b>新品专区</b>探访源头产地 臻选当令时鲜</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.yiguo.com/activity/sale/3205" target="_blank">
+                        <img src="images/9288692890968174.jpg" width="290">
+                            <p><b>优质生活</b>美食有态度，生活更有味</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.yiguo.com/products/01_channelhome.html" target="_blank">
+                        <img src="images/9288718008001583.jpg" width="290">
+                            <p><b>水果专区</b>全球水果新鲜速递</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://article.yiguo.com/" target="_blank">
+                        <img src="images/9288730997400875.jpg" width="290">
+                            <p><b>菜谱专栏</b>大厨私房菜 餐桌新食尚</p>
+                    </a>
+                </li>
+        </ul>
+    </div>
+
+<!------- 商品楼层 ------->
+        <div class="floor wrap 01_channelhome clearfix loadfloor" id="t01_channelhome" data-url="/Home/Floor?floorId=01_channelhome">
+            <div class="loding"></div>
+        </div>
+        <div class="floor wrap 02_channelhome clearfix loadfloor" id="t02_channelhome" data-url="/Home/Floor?floorId=02_channelhome">
+            <div class="loding"></div>
+        </div>
+        <div class="floor wrap 04_channelhome clearfix loadfloor" id="t04_channelhome" data-url="/Home/Floor?floorId=04_channelhome">
+            <div class="loding"></div>
+        </div>
+        <div class="floor wrap 05_channelhome clearfix loadfloor" id="t05_channelhome" data-url="/Home/Floor?floorId=05_channelhome">
+            <div class="loding"></div>
+        </div>
+        <div class="floor wrap 06_channelhome clearfix loadfloor" id="t06_channelhome" data-url="/Home/Floor?floorId=06_channelhome">
+            <div class="loding"></div>
+        </div>
+        <div class="floor wrap 10_channelhome clearfix loadfloor" id="t10_channelhome" data-url="/Home/Floor?floorId=10_channelhome">
+            <div class="loding"></div>
+        </div>
+        <!--腰线 开始-->
+        <!------- 楼层引导 ------->
+        
+<div class="floor-guide" style="display: none;">
+    <div class="mui-nav">
+            <a href="#t01_channelhome">
+                <b class="icon_01_channelhome">&nbsp;</b>
+                <em>进口水果</em>
+                <i>&nbsp;</i>
+            </a>
+            <a href="#t02_channelhome">
+                <b class="icon_02_channelhome">&nbsp;</b>
+                <em>国产水果</em>
+                <i>&nbsp;</i>
+            </a>
+            <a href="#t04_channelhome">
+                <b class="icon_04_channelhome">&nbsp;</b>
+                <em>海鲜水产</em>
+                <i>&nbsp;</i>
+            </a>
+            <a href="#t05_channelhome">
+                <b class="icon_05_channelhome">&nbsp;</b>
+                <em>精选肉类</em>
+                <i>&nbsp;</i>
+            </a>
+            <a href="#t06_channelhome">
+                <b class="icon_06_channelhome">&nbsp;</b>
+                <em>禽类蛋品</em>
+                <i>&nbsp;</i>
+            </a>
+            <a href="#t10_channelhome">
+                <b class="icon_10_channelhome">&nbsp;</b>
+                <em>方便速食</em>
+                <i>&nbsp;</i>
+            </a>
+    </div>
+</div>
+        <!--腰线 结束-->
+                    <!--摇一摇-->
+
+        <div class="footer_service">
+    <div class="wrap">
+        <ul>
+            <li class="s1">
+                <b>全球精选</b>
+                <span>一站式生鲜购物方案</span>
+            </li>
+            <li class="s2">
+                <b>多仓直发</b>
+                <span>特有次日达配送服务</span>
+            </li>
+            <li class="s3">
+                <b>源头直采</b>
+                <span>精选正宗品质好食材</span>
+            </li>
+            <li class="s4">
+                <b>天天底价</b>
+                <span>会员专属优惠购不停</span>
+            </li>
+        </ul>
+    </div>
+</div>
+<!------- 页尾 ------->
+<div class="footer">
+    <div class="wrap">
+        <dl class="col1">
+            <dt>新手指南</dt>
+            <dd>
+                <p><a href="/help/registersteps.html">账户注册</a></p>
+                <p><a href="/help/gouwuliucheng.html">购物流程</a></p>
+                <p><a href="/help/ordering.html">订购方式</a></p>
+                <p><a href="/help/ubremark.html">悠币说明</a></p>
+                            <p><a href="http://www.yiguo.com/activity/sale/2999">会员等级<i class="ml5"><img src="images/icon-new.png"></i></a></p>
+
+            </dd>
+        </dl>
+        <dl class="col2">
+            <dt>付款方式</dt>
+            <dd>
+                <p><a href="/help/payment.html">支付方式</a>/<a href="/help/invoiceremark.html">发票说明</a></p>
+                <p><a href="/help/chongzhiliucheng.html">充值说明</a><a href="/help/usechuzhika.html">/储值卡说明</a></p>
+                <p><a href="/help/usegiftcard.html">优惠代码/礼品卡说明</a></p>
+                <p><a href="/help/cardbuynotes.html">卡券购买章程</a></p>
+            </dd>
+        </dl>
+        <dl class="col3">
+            <dt>配送方式</dt>
+            <dd>
+                <p><a href="/help/sendyuefei.html">配送运费</a></p>
+                <p><a href="/help/sendquyu.html">配送范围</a></p>
+                <p><a href="/help/sendtime.html">配送时间</a></p>
+            </dd>
+        </dl>
+        <dl class="col4">
+            <dt>售后服务</dt>
+            <dd>
+                <p><a href="/help/tuihuanhuoshuoming.html">退换货政策</a></p>
+                <p><a href="/help/huanhuolc.html">退换货流程</a></p>
+                <p><a href="/help/qa.html">常见问题</a></p>
+                <p><a href="/help/quicknessrefund.html">极速退款</a><p>
+                <p><a href="http://home.yiguo.com/Trade/Advice">投诉与建议</a></p>
+            </dd>
+        </dl>
+        <dl class="col5">
+            <dt>关于我们</dt>
+            <dd>
+                <p><a href="/help/introduction.html">公司介绍</a></p>
+                <p><a href="/help/contact.html">联系我们</a></p>
+                <p><a href="/help/procooperation.html">业务合作</a></p>
+                <p><a href="/help/chengxinjubao.html">诚信举报</a></p>
+                <p><a href="http://yiguo.zhiye.com/home" target="_blank" rel="nofollow">人才招聘</a></p>
+                <p><a href="/help/friendurl.html">友情链接</a></p>
+                
+            </dd>
+        </dl>
+        <div class="service"><span>客服热线 400-000-7788 企业采购或团购，请转2号键咨询</span><span>周一至周日 9:00-21:00</span></div>
+        <div class="copyright">
+            <p>所有图片均受著作权保护，未经许可任何单位与个人不得使用、复制、转载、摘编，违者必究法律责任。</p>
+            <p> <a href="http://www.miibeian.gov.cn" target="_blank" rel="nofollow">沪ICP备09008015号 </a>  Copyright © 2005-2018 <a href="http://www.yiguo.com/">上海易果电子商务有限公司</a>版权所有</p>
+            <p class="authentication">
+                <a href="http://www.yiguo.com/legal" target="_blank" rel="nofollow"><img src="images/153685368061665897_121x29.png"></a>
+                <a href="http://shwg.dianping.com/index.html" target="_blank" rel="nofollow"><img src="images/2517491005058doc.png" height="47"></a>
+                <a href="http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&amp;entyId=20110512114405424" target="_blank"><img src="images/footer_copy.gif" width="47px" height="47px"></a>
+                <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010502000002" style="display: inline-block; text-decoration: none; height: 20px; line-height: 20px;"><img src="images/ghs.png" style="float: left;" /><span style="float: left; height: 20px; line-height: 20px; margin: 0px 0px 0px 5px; color: #939393;">沪公网安备 31010502000002号</span></a>
+            </p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    var nowDate = new Date();
+    var nowTime = nowDate.getFullYear() + "-" + (nowDate.getMonth() + 1) + "-" + nowDate.getDate();
+    var endTime = "2017-5-15";
+    if (ToDate(nowTime) >= ToDate(endTime)) {
+        $('.col1 .ml5').hide();
+    }
+
+    function ToDate(str) {
+        var arr = str.split("-");
+        var newDate = new Date(arr[0], arr[1], arr[2]);
+        return newDate;
+    }
+</script>
+
+
+        <!------- 侧边悬浮 ------->
+        <div class="sidebar" id="sidebar">
+            <a href="javascript:void(0);" class="s-btn service"></a>
+            <a href="#body" class="s-btn goTop"></a>
+        </div>
+    </div>
+
+    <script src="js/jquery.cookie.js?v20150427"></script>
+    <script src="js/handlebars-v3.0.1.js"></script>
+    <script src="js/utaste.js"></script>
+    <script src="js/base.js"></script>
+    <script src="js/jquery.superslide.js"></script>
+    <script src="js/sidebar.js"></script>
+    <script src="js/floor-guide.js"></script>
+    <script src="js/global-v2.js"></script>
+    <script src="js/search.js?v20150427"></script>
+    <script src="js/city.js?v20160816"></script>
+    <script src="js/app.js?v20160816"></script>
+    <script src="js/common.js?v20150427"></script>
+    <script src="js/util.js?v20150427"></script>
+    <!--[if lt IE 9]>
+        <script src="other/ww/json/json.js" charset="utf-8"></script>
+    <![endif]-->
+    <!-- 自动适配移动端与pc端 -->
+    <script src="other/??h5.imsdk/2.1.5/scripts/yw/wsdk.js,h5.openim.kit/0.4.0/scripts/kit.js?pc=1" charset="utf-8"></script>    
+    <script src="js/chat.js"></script>
+    <script>
+        $(function () {
+            app.init();
+            YgmDplus.init("www.yiguo.com", "", "");           
+        })
+
+    </script>
+    
+    
+
+            <script>
+
+                $(function () {
+                    app.floorscroll(".loadfloor", 0);
+                    app.changeCategory();
+                    app.fixedheader();
+                    $(".prev,.next").hover(function () {
+                        $(this).fadeTo("show", 0.7);
+                    }, function () {
+                        $(this).fadeTo("show", 0.3);
+                    })
+                    //首页焦点图
+                    $(".banner-slider").hover(function () {
+                        $(this).find(".prev,.next").fadeTo("show", 0.3);
+                    }, function () {
+                        $(this).find(".prev,.next").hide();
+                    })
+                    $(".banner-slider").slide({
+                        titCell: ".b-dot ul", mainCell: ".b-slider", effect: "fold", autoPlay: true, interTime: 4500, autoPage: true,
+                        endFun: function (i, c) {
+                            $(".b-slider li").removeClass("current").eq(i).addClass("current");
+                        }
+                    });
+
+
+                    $(".banner-slider li").click(function () {
+                        var vdsjson = {
+                            "event_target": this
+                            , "page_name": "首页"
+                            , "page_number": 1
+                            , "page_widget_name": "首页顶部滚动广告栏"
+                            , "page_widget_position": $(this).index() + 1
+                            , "city": "16"
+                            , "promo_type": $(this).attr("_title")
+                            , "promo_date_begin": $(this).attr("_beginTime")
+                            , "promo_date_end": $(this).attr("_endtime")
+                        };
+                        _vds.track("ad_click", vdsjson);
+                    })
+
+                    //$(function () {
+                    //    if ($.cookie('firstvisit') == "true") {
+                    //        $(".page-tips").remove();
+                    //    } else {
+                    //        $(".page-tips").show();
+                    //        $(".page-tips a").click(function () {
+                    //            $(this).parent().remove();
+                    //            $.cookie("firstvisit", "true", { expires: 365, path: '/', domian: 'yiguo.com' });
+                    //        });
+                    //    }
+                    //    if ($.cookie('activity') != 'true') {
+                    //        if ($("#tenyears_ad")) {
+                    //            $("#tenyears_ad").show();
+                    //            $("#tenyears_ad .close").click(function () {
+                    //                $.cookie("activity", "true", { path: '/' });
+                    //            });
+                    //        }
+                    ////    }
+                    //})
+			
+                })
+
+            </script>
+            <script type="text/javascript">
+                window.__zp_tag_params = {
+                    pagetype: "shouye",
+                };
+				
+				  //投诉和建议呼起客服
+                    $(function () {
+
+                        if ($.cookie('IsComplaint') == "true") {
+                            $("a[id^='calltool']").click();
+							//状态删除
+							$.cookie("IsComplaint", null,{path:"/"}); 
+                        }
+					});
+            </script>
+
+        
+    <script src="js/stats.js?v20170410"></script>
+    
+    
+</body>
+</html>

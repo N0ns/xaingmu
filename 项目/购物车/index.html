@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>购物车-易果网</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Keywords" content="水果，进口水果，国产水果，易果网" />
+    <meta name="Description" content="易果网是全国最大的专业精品水果网之一，从事高品质水果及健康食品销售，提供各类进口水果，国产水果，以专业便捷的配送服务让易果迅速布遍全国各地，使您第一时间品尝到最优质最新鲜的水果。电话：400-820-8251,800-820-8251" />
+    <meta property="qc:admins" content="15753240576117576375" />
+    <script type="text/javascript">
+        var yg_x = new Date();
+        var httpUrlOneStats="http://tracker.yiguo.com";
+    </script>
+    <link rel="shortcut icon" href="http://static01.yiguo.com/cart/images/yiguo.ico" />
+    <link href="css/public.css" rel="stylesheet" type="text/css" />
+    <link href="css/yg.css" rel="stylesheet" type="text/css" />
+    
+    <link href="css/cart.css" rel="stylesheet" type="text/css" />
+
+    <!-- start Dplus -->
+    <script type="text/javascript">!function (a, b) { if (!b.__SV) { var c, d, e, f; window.dplus = b, b._i = [], b.init = function (a, c, d) { function g(a, b) { var c = b.split("."); 2 == c.length && (a = a[c[0]], b = c[1]), a[b] = function () { a.push([b].concat(Array.prototype.slice.call(arguments, 0))) } } var h = b; for ("undefined" != typeof d ? h = b[d] = [] : d = "dplus", h.people = h.people || [], h.toString = function (a) { var b = "dplus"; return "dplus" !== d && (b += "." + d), a || (b += " (stub)"), b }, h.people.toString = function () { return h.toString(1) + ".people (stub)" }, e = "disable track track_links track_forms register unregister get_property identify clear set_config get_config get_distinct_id track_pageview register_once track_with_tag time_event people.set people.unset people.delete_user".split(" "), f = 0; f < e.length; f++) g(h, e[f]); b._i.push([a, c, d]) }, b.__SV = 1.1, c = a.createElement("script"), c.type = "text/javascript", c.charset = "utf-8", c.async = !0, c.src = "//w.cnzz.com/dplus.php?token=1915ef989c5aence66fa", d = a.getElementsByTagName("script")[0], d.parentNode.insertBefore(c, d) } }(document, window.dplus || []), dplus.init("1915ef989c5aence66fa");</script><!-- end Dplus -->
+    <script src="js/topdsp.js"></script>
+</head>
+<body id="body">
+    <div class="w">
+
+
+<!------- 顶部工具栏 ------->
+<div class="site-nav">
+    <div class="wrap">
+        <ul class="fl">
+            <li>欢迎光临易果生鲜！</li>
+        </ul>
+        <ul class="fr">
+            <li class="TEL"><a href="http://home.yiguo.com/Trade/OnlineDelivery" target="_blank"><i></i>礼品兑换券入口</a></li>
+            <li class="pay"><a href="http://home.yiguo.com/Recharge/Index" target="_blank"><i></i>储值卡</a></li>
+            <li class="mobile">
+                <div class="tit"><a href="javascript:void(0)"><i></i>手机易果<s></s></a></div>
+                <div class="con">
+                    <div class="item"><img src="images/qrcode_app.jpg" width="125" height="125"><span>扫一扫下载APP</span></div>
+                    <div class="item"><img src="images/qrcode_wechat.jpg" width="125" height="125"><span>易果生鲜官方微信</span></div>
+                </div>
+            </li>
+            <li class="myyiguo">
+                <div class="tit"><a href="http://home.yiguo.com" target="_blank"><i></i>我的易果<s></s></a></div>
+                <div class="con">
+                    <a href="http://home.yiguo.com/Trade/OrderList">我的订单</a>
+                    <a href="http://home.yiguo.com/Trade/MyCoupons">我的优惠券</a>
+                    <a href="http://home.yiguo.com/Trade/UMoney">我的悠币</a>
+                    <a href="http://home.yiguo.com/Trade/MyCollection">我的收藏</a>
+                    <a href="http://home.yiguo.com/Trade/BackOrder">我的退换货</a>
+                    <a href="http://home.yiguo.com/Account/Balance">预存款查询</a>
+                    <a href="http://home.yiguo.com/Recharge/Index">立即充值</a>
+                    <a href="/AjaxCart/Logout">退出</a>
+                </div>
+            </li>
+                <li><a href="https://login.yiguo.com//register">[注册]</a></li><li><a href="https://login.yiguo.com//login?Url=http://cart.yiguo.com">[登录]</a></li>
+            
+        </ul>
+    </div>
+</div>
+        <!------- 头部 ------->
+        <div class="header clearfix">
+            <div class="wrap">
+                <div class="logo">
+                    <a href="http://www.yiguo.com" target="_blank"></a>
+                    
+                </div>
+                <div class="steps">
+                    <ul>
+                        <li class="on"><b class="b1"></b><span>我的购物车</span></li>
+                        <li><i></i><b class="b2"></b><span>填写订单信息</span></li>
+                        <li><i></i><b class="b3"></b><span>成功提交订单</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+<div class="popout dazhaxie" style="display: none;">
+    <div class="popout-wrap">
+        <div class="popout-con">
+            <a class="close" onclick="$('.dazhaxie').hide()">×</a>
+            <div class="con">
+                <p>大闸蟹类商品仅限APP购买，立即扫描二维码下载APP享受更多优惠</p>
+                <p><img src="images/qrcode_app.jpg"></p>
+                   <a class="btn" href="http://img02.yiguo.com/mobapp/appdownload.html" target="_blank">立即下载</a>
+            </div>
+        </div>
+    </div>
+    <div class="popout-bg"></div>
+</div>
+
+<div id="theLogin" class="popout p-login" style="display:none;">
+    <div class="popout-wrap">
+        <div class="popout-con">
+            <div class="title" style="margin-bottom:40px;">登    录<a class="close" href="javascript:void()"></a></div>
+
+            <iframe src="https://login.yiguo.com/login/SimIndex?Url=http://cart.yiguo.com/ShopCart/RedirectToOrder" id="dialogIframe" name="dialogIframe" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" style="border: 0px; width: 100%; height: 79%;"></iframe>
+        </div>
+    </div>
+    <div class="popout-bg">&nbsp;</div>
+</div>
+<!-------  我的购物车 ------->
+<div class="cart">
+    <div class="wrap">
+            <!--购物车空-->
+            <div class="cart-none" style="display:block;">
+                <p>
+                <b>购物车是空的，去买点东西吧！<a href="http://www.yiguo.com">继续逛逛&gt;&gt;</a></b>
+                        <br>您还尚未<a href="https://login.yiguo.com/Login?Url=http://cart.yiguo.com/">登录</a>
+                </p>
+            </div>
+        <!--特惠换购-->
+        <div class="preferential-buy">
+
+
+
+        </div>
+    </div>
+</div>
+
+
+<style>
+    i {
+        background-image: none;
+    }
+</style>
+<div class="footer">
+    <div class="wrap">
+        <dl class="col1">
+            <dt>新手指南</dt>
+            <dd>
+                <p><a href="http://www.yiguo.com/help/registersteps.html">账户注册</a></p>
+                <p><a href="http://www.yiguo.com/help/gouwuliucheng.html">购物流程</a></p>
+                <p><a href="http://www.yiguo.com/help/ordering.html">订购方式</a></p>
+                <p><a href="http://www.yiguo.com/help/ubremark.html">悠币说明</a></p>
+                            <p><a href="http://www.yiguo.com/activity/sale/2999">会员等级<i class="ml5"><img src="images/icon-new.png"></i></a></p>
+            </dd>
+        </dl>
+        <dl class="col2">
+            <dt>付款方式</dt>
+            <dd>
+                <p><a href="http://www.yiguo.com/help/payment.html">支付方式</a>/<a href="http://www.yiguo.com/help/invoiceremark.html">发票说明</a></p>
+                <p><a href="http://www.yiguo.com/help/chongzhiliucheng.html">充值说明</a><a href="http://www.yiguo.com/help/usechuzhika.html">/储值卡说明</a></p>
+                <p><a href="http://www.yiguo.com/help/usegiftcard.html">优惠代码/礼品卡说明</a></p>
+                <p><a href="http://www.yiguo.com/help/cardbuynotes.html">卡券购买章程</a></p>
+            </dd>
+        </dl>
+        <dl class="col3">
+            <dt>配送方式</dt>
+            <dd>
+                <p><a href="http://www.yiguo.com/help/sendyuefei.html">配送运费</a></p>
+                <p><a href="http://www.yiguo.com/help/sendquyu.html">配送范围</a></p>
+                <p><a href="http://www.yiguo.com/help/sendtime.html">配送时间</a></p>
+            </dd>
+        </dl>
+        <dl class="col4">
+            <dt>售后服务</dt>
+            <dd>
+                <p><a href="http://www.yiguo.com/help/tuihuanhuoshuoming.html">退换货政策</a></p>
+                <p><a href="http://www.yiguo.com/help/huanhuolc.html">退换货流程</a></p>
+                <p><a href="http://www.yiguo.com/help/qa.html">常见问题</a></p>
+                <p><a href="http://home.yiguo.com/Trade/Advice">投诉与建议</a></p>
+            </dd>
+        </dl>
+        <dl class="col5">
+            <dt>关于我们</dt>
+            <dd>
+                <p><a href="http://www.yiguo.com/help/introduction.html">公司介绍</a></p>
+                <p><a href="http://www.yiguo.com/help/contact.html">联系我们</a></p>
+                <p><a href="http://www.yiguo.com/help/procooperation.html">业务合作</a></p>
+                <p><a href="http://www.yiguo.com/help/chengxinjubao.html">诚信举报</a></p>
+                <p><a href="http://yiguo.zhiye.com/home" target="_blank" rel="nofollow">人才招聘</a></p>
+            </dd>
+        </dl>
+        <div class="service"><span>客服热线 400-000-7788</span><span>周一至周日 9:00-21:00</span></div>
+        <div class="copyright">
+            <p>所有图片均受著作权保护，未经许可任何单位与个人不得使用、复制、转载、摘编，违者必究法律责任。</p>
+            <p>沪ICP备09008015号 Copyright © 2005-2015 <a href="http://www.yiguo.com/">上海易果电子商务有限公司</a>版权所有</p>
+            <p class="authentication">
+                <a href="http://www.yiguo.com/legal" target="_blank" rel="nofollow"><img src="images/153685368061665897_121x29.png"></a>
+                <a href="http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&amp;entyId=20110512114405424" target="_blank"><img src="images/footer_copy.gif" width="47px" height="47px"></a>
+                <a href="https://180.169.127.46:9090/?sn=310100102001">
+                    <img src="images/picp_bg.png" height="47" alt="»¦¹«θ±¸" border="0">
+                    <span>310100102001</span>
+                </a>
+            </p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    var nowDate = new Date();
+    var nowTime = nowDate.getFullYear() + "-" + (nowDate.getMonth() + 1) + "-" + nowDate.getDate();
+    var endTime = "2017-5-15";
+    if (ToDate(nowTime) >= ToDate(endTime)) {
+        $('.col1 .ml5').hide();
+    }
+    function ToDate(str) {
+        var arr = str.split("-");
+        var newDate = new Date(arr[0], arr[1], arr[2]);
+        return newDate;
+    }
+</script>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/global-v2.js?v20161208"></script>
+    <!--IE6png兼容-->
+    <!--[if IE 6]>
+    <script src="http://static01.yiguo.com/cart/js/DD_belatedPNG.js"></script>
+    <script src="http://static01.yiguo.com/cart/js/IE6png.js"></script>
+    <![endif]-->
+    
+    <script type="text/javascript" src="js/tab.js"></script>
+    <script type="text/javascript" src="js/CartController.js?v20161208"></script>
+    <script type="text/javascript">
+
+        $(function () {
+         
+	
+            //手机易果
+            $('.mobile').hover(function(){
+                $(this).addClass('current');
+            },function(){
+                $(this).removeClass('current');
+            }); 
+
+        //我的易果
+        $('.myyiguo').hover(function(){
+            $(this).addClass('current');
+        },function(){
+            $(this).removeClass('current');
+        });
+
+        $(".cart-slct-box .chk input").click(
+            function(){
+                $("#insulationCan").toggle();    
+            }
+        );
+        var sExchangeBuy=$(".preferential-buy").html();
+        if($.trim(sExchangeBuy)=="")
+        {
+            $(".preferential-buy").hide()
+        }else{
+            $(".preferential-buy").html(sExchangeBuy);
+        }
+
+        //换一批
+        $("#changePage").live("click",function () {
+            var currPage = parseInt($("#currPage").html());
+            currPage=currPage +1;
+            var totalPage = $("#totalPage").html();
+            if(parseInt(totalPage)<=1){
+                $("#changePage").hide();
+            }else{
+                $("#changePage").show();
+            }
+            if(currPage>totalPage){
+                currPage=1;
+            }
+            var totalPrice=0.00;
+            $.get("/ShopCart/ExchangeBuy","totalPrice="+totalPrice+"&pageIndex="+currPage+"&datestamp="+new Date().getTime(),function(data){
+                if($.trim(data)=="")
+                {
+                    $(".preferential-buy").hide()
+                }else{
+                    $(".preferential-buy").html(data);
+                }
+            })
+        });
+        //login popout
+        $(".p-login .popout-con .title a.close").click(function(){
+            $(".p-login").hide();
+        });
+
+        //$(".city-con a").click(function(){
+        //    var v = $(this).attr("v");
+        //    var areaid = $(this).attr("aid");
+        //    var name = $.trim($(this).text());
+        //    if (v != "" && v != undefined) {
+        //        $.ajax({
+        //            url: "/AjaxCart/SetAreaCookie?cityid=" + v + "&cityname=" + encodeURIComponent(name) + "&areaid=" + encodeURIComponent(areaid) + "&r=" + Math.random(),
+        //            success: function (data) {
+        //                if(data=="1"){
+        //                    window.location.reload(true);
+        //                }
+        //            }
+        //        });
+        //    }
+        //});
+
+    });
+    //适应分辨率
+    var screenWidth = window.screen.width;
+    if (screenWidth < 1300) {
+        document.write()
+        $('.w').addClass('w1280');
+    }
+    //结算样式浮动
+    $(window).scroll(scrollSettle);
+    scrollSettle();
+    function scrollSettle() {
+        var spaceTop = $('.settle-space').offset().top,
+            scrollTop = $(window).scrollTop(),
+            windowHeight = $(window).height(),
+            elementTop = spaceTop - windowHeight;
+        if (elementTop < scrollTop) {
+            $('.settle').removeClass('settle-fixed');
+        }
+        else {
+            $('.settle').addClass('settle-fixed');
+        }
+    }
+
+    
+    
+    </script>
+<script type="text/javascript">
+
+    var productids = new Array();
+    var products = $(".cart-list tr .cart-t-img a");
+    $.each(products, function (index, item) {
+        if (index < 10) {
+            var link = $(item).attr("href");
+            var id = link.substring(link.lastIndexOf('/') + 1, link.lastIndexOf('.'));
+            productids.push(id);
+        }
+    })
+
+    window.__zp_tag_params = {
+        pagetype:"cart",
+        status: (productids.length > 0 && productids[0] != "") ? 1 : 0,
+        productID_list:productids
+    };
+</script>
+
+    <script type="text/javascript">
+    $(function () {
+        y = new Date()
+        diff = y.getTime() - yg_x.getTime();
+        var Tags = (diff / 1000);
+        var pageurl = window.location.href;
+        var referrerurl = document.referrer;
+        var extData = "";
+        if ("undefined" != typeof pageTag) {
+            extData = "&categoryid=" + pageTag + "&behavior=0";
+            if (uniqueRate) {
+                extData += "&behaviorid=" + uniqueRate;
+            }
+        }
+        $.getJSON(httpUrlOneStats + '/Ajax/YGAnalytics.ashx?operate=view&site=Cart' + extData + '&pageurl=' + encodeURIComponent(pageurl) + '&referrerurl=' + encodeURIComponent(referrerurl) + "&Tags=" + Tags + "&datestamp=" + new Date().getTime() + "&jsoncallback=?");
+    });
+    </script>
+    <script src="js/common.js?v20150427"></script>
+    <script src="js/stats.js?v20150427"></script>
+    <script src="js/city.js?v20160816"></script>
+    <script src="js/app.js?v20160816"></script>
+</body>
+</html>

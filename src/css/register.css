@@ -1,0 +1,77 @@
+
+
+
+
+.tab-content .tab-pane {padding:10px 0;height: 542px;}
+
+.tab-content .active {display:block;}
+
+.tab-content ul{margin-left:-40px;}
+
+.tab-content li{display:inline-block;*display:inline;*zoom:1; width:88px;}
+
+.tab-content li a{display: block;font:12px/2 microsoft yahei; color:#606060; text-align:right;}
+
+
+
+input[type=text]:focus,input[type=password]:focus{outline:3px solid #b1d6ff;}
+
+.tabbable { position:relative;width: 100%;margin: 10px auto 0;}
+
+
+.tabbable .right { position: absolute; top:-27px; right:0; font:14px/1 "Microsoft YaHei";}
+
+.tabbable .right .orange { margin-right:36px; color:#ef760a; text-decoration:underline;}
+
+.register{ padding-top: 54px;}
+
+.register .nav-tabs li { margin-bottom:-1px;}
+
+.register .nav-tabs li a {font:18px/1 "Microsoft YaHei"; color:#262626; padding:14px 66px 11px;background-color:#f7f7f7; border:1px solid #c4dfb1; border-bottom:0;}
+
+.register .nav-tabs .active a, .register .nav-tabs .active a:hover {border-bottom:0; font-weight: normal; background:#fff ; padding-bottom:12px;}
+
+.register .nav-tabs {border-bottom:1px solid #c4dfb1; padding-left:240px;}
+
+.register .tab-content .tab-pane { border:1px solid #c4dfb1; background-color:#fff; padding:40px 0 50px;}
+
+.register .field-name{ display:inline-block;*display:inline;*zoom:1; width:220px; text-align:right; padding-right:20px;}
+
+.register .input{ margin-right:20px;}
+
+.input-phone, .input-mail, .input-key { background-image:url(../img/register/bg_input.png); background-repeat:no-repeat;}
+
+.input-phone { background-position:276px -30px;}
+
+.input-mail { background-position:276px 10px;}
+
+.input-key { background-position:276px -70px;}
+
+
+
+.register .fr{ position:relative; height:340px; width:330px; text-align:center; padding-top:50px; font:14px/56px "Microsoft YaHei";}
+
+.register .fr .rimg{ position:absolute; left:-140px; top:70px;}
+
+input[type=checkbox]{ margin-right:9px; height:14px; width:14px; vertical-align:-1px;}
+.register p, .forget-pwd p{ margin-bottom:29px; font:14px Arial,"Microsoft YaHei";}
+
+.login .input, .register .input, .forget-pwd .input{border:1px solid #c1c1c1;background-color:#fff;height:38px;vertical-align:middle;padding-left:14px;width:290px;font:14px/38px "Microsoft YaHei";}
+
+.login .input-yzm, .register .input-yzm{width:147px;}
+
+.btn-yzm{ display:inline-block;*display:inline;*zoom:1;width:121px; height:38px; text-align:center; line-height:38px; background-color:#f7f7f7; border:1px solid #c1c1c1; color:#64b22a; margin-right:20px;}
+
+/*注册成功*/
+
+.register-succ{ height:247px; border:1px solid #e3e6e0; border-top:2px solid #70bd2c; background-color:#fcffed; margin-top:80px; color:#58a51f; font:24px/1 "Microsoft YaHei"; text-align:center; padding-top:80px; margin-bottom:60px}
+
+.register-succ i{ display:inline-block;*display:inline;*zoom:1; width:50px; height:50px; background:url(../images/bg_login.png) -360px -196px no-repeat; margin-right:20px; vertical-align:middle}
+
+.register-succ a{ display:block; width:127px; height:40px; text-align:center;font: 16px/40px "Microsoft YaHei"; color:#fff; margin:60px auto; background-color:#f14b00; border-radius:3px;}
+.register .nav-tabs .active a, .register .nav-tabs .active a:hover{background-image:url(../images/tab_bg_active.jpg);}
+
+.register-succ{ background:#fff;}
+
+
+

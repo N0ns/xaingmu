@@ -1,0 +1,224 @@
+/*头部浮动*/
+.site-nav-fixed{ z-index: 101; display: block; position: fixed; _position: absolute;  top:0; left:0; width: 100%; height:30px;}
+.header_fixed{ z-index: 100; display: block; position: fixed; _position: absolute;  top:0px; left:0; width: 100%; height:46px; height:60px\9; background:url(../images/header_fixed_bg.png) repeat;}
+.header_fixed .wrap{height:36px; height:50px\9; padding:5px 0;}
+.header_fixed .logo{margin-right:0px;}
+.header_fixed .logo a { height: 36px; height:50px\9; background-size: auto 100%; }
+.header_fixed .search{ width:770px; margin-top:3px; padding-top:5px\9;}
+.header_fixed .search-bar{ float:left;}
+.header_fixed .search .search-keywords{ overflow:hidden; float:left;  width: 230px; height:28px; margin-left: 10px;}
+.header_fixed .shopping-cart{ padding-top:5px\9;}
+.header_fixed .shopping-btn{ width:140px; padding:2px 0; font-size:20px;}
+.header_fixed .shopping-list{ top:33px;}
+
+#floor1{height: 751px;}
+#floor2{height: 500px;}
+#floor3{height: 500px;}
+#floor4{height: 500px;}
+#floor5{height: 500px;}
+#floor6{height: 500px;}
+#floor7{height: 500px;}
+#floor8{height: 345px;}
+#keywords{height:30px;}
+.floor .loding{height:500px;background: url(../images/loding.gif) no-repeat scroll 50% 50% white;}
+.adline a{display:block;}
+.floor-con .floor-side a{display:block;}
+.catalogs-ad a{display:block;}
+
+.goods_list .loding{height:60px;background: url(../images/loding.gif) no-repeat scroll 50% 50% white;}
+.select_list  .select a{color: #09964e;font-weight: bold;}
+
+#tefruit h2 a{ color:#fc5f3c;}
+#tefruit h2 i{ background-position:0 0;}
+#tvegetablesdalei h2 a{ color:#bcc257;}
+#tvegetablesdalei h2 i{ background-position:-46px 0;}
+#t002 h2 a{ color:#a22e2a;}
+#t002 h2 i{ background-position:-92px 0;}
+#tseafood h2 a{ color:#252f4f;}
+#tseafood h2 i{ background-position:-138px 0;}
+#tmeat h2 a{ color:#e08683;}
+#tmeat h2 i{ background-position:-184px 0;}
+#triceoilcondiment h2 a{ color:#93724f;}
+#triceoilcondiment h2 i{ background-position:-230px 0;}
+#tkincake h2 a{ color:#764e00;}
+#tkincake h2 i{ background-position:-276px 0;}
+#tpresent h2 a{ color:#26375d;}
+#tpresent h2 i{ background-position:-322px 0;}
+
+
+.floor-guide .icon_efruit{ background-position: 0 0; }
+.floor-guide .icon_vegetablesdalei{ background-position: -40px 0; }
+.floor-guide .icon_002{ background-position: -80px 0; }
+.floor-guide .icon_meat{ background-position: -120px 0; }
+.floor-guide .icon_seafood{ background-position: -160px 0; }
+.floor-guide .icon_kincake{ background-position: -200px 0; }
+.floor-guide .icon_vegetablesdalei{ background-position: -240px 0; }
+.floor-guide .icon_present{ background-position: -280px 0; }
+.floor-guide .icon09{ background-position: -320px 0; }
+.floor-guide .icon_riceoilcondiment{ background-position: -360px 0; }
+.floor-guide .icon_present{ background-position: -400px 0; }
+.floor-guide .icon12{ background-position: -440px 0; }
+
+.catalogs-list .tefruit a i{ background-position: 0 0}
+.catalogs-list .tvegetablesdalei a i{ background-position: -24px 0}
+.catalogs-list .t002 a i{ background-position: -48px 0}
+.catalogs-list .tmeat a i{ background-position: -72px 0}
+.catalogs-list .tseafood a i{ background-position: -96px 0}
+.catalogs-list .tkincake a i{ background-position: -120px 0}
+.catalogs-list .tvegetablesdalei a i{ background-position: -144px 0}
+.catalogs-list .t8 a i{ background-position: -168px 0}
+.catalogs-list .t9 a i{ background-position: -192px 0}
+.catalogs-list .triceoilcondiment a i{ background-position: -216px 0}
+.catalogs-list .tPresent a i{ background-position: -240px 0}
+
+
+
+
+/*新版分类iocn对应样式*/
+#t11_channelhome h2 a{ color:#26375d;}
+#t11_channelhome h2 i{background-position:-240px 0;}
+.catalogs-list .t11_channelhome a i{ background-position: -240px 0;}
+.floor-guide .icon_11_channelhome{ background-position: -420px 0; }
+
+#t10_channelhome  h2 a{ color:#3ca3dc;}
+#t10_channelhome h2 i { background-position: -531px 0; width: 41px; }
+.catalogs-list .t10_channelhome a i{ background-position: -168px 0;}
+.floor-guide .icon_10_channelhome{ background-position: -280px 0; }
+
+#t09_channelhome   h2 a{ color:#940606;}
+#t09_channelhome   h2 i{background-position:-414px 0;}
+.catalogs-list .t09_channelhome a i{ background-position: -216px 0;}
+.floor-guide .icon_09_channelhome{ background-position: -360px 0; }
+
+#t08_channelhome   h2 a{ color:#764e00;}
+#t08_channelhome   h2 i{background-position:-230px 0;}
+.catalogs-list .t08_channelhome a i{ background-position: -120px 0;}
+.floor-guide .icon_08_channelhome{ background-position: -200px 0; }
+
+#t07_channelhome   h2 a{ color:#b84f00;}
+#t07_channelhome   h2 i{background-position:-368px 0;}
+.catalogs-list .t07_channelhome a i{ background-position: -192px 0;}
+.floor-guide .icon_07_channelhome{ background-position: -320px 0; }
+
+#t06_channelhome   h2 a{ color:#e08683;}
+#t06_channelhome   h2 i{background-position:-138px 0;}
+.catalogs-list .t06_channelhome a i{ background-position: -72px 0;}
+.floor-guide .icon_06_channelhome{ background-position: -120px 0; }
+
+#t05_channelhome   h2 a{ color:#f0c000;}
+#t05_channelhome   h2 i{background-position:-92px 0;}
+.catalogs-list .t05_channelhome a i{ background-position: -48px 0;}
+.floor-guide .icon_05_channelhome{ background-position: -80px 0; }
+
+#t04_channelhome   h2 a{ color:#45c6ce;}
+#t04_channelhome  h2 i{background-position:-184px 0;}
+.catalogs-list .t04_channelhome a i{ background-position: -96px 0;}
+.floor-guide .icon_04_channelhome{ background-position: -160px 0; }
+
+#t03_channelhome   h2 a{ color:#bcc257;}
+#t03_channelhome  h2 i{background-position:-276px 0;}
+.catalogs-list .t03_channelhome a i{ background-position: -144px 0;}
+.floor-guide .icon_03_channelhome{ background-position: -240px 0; }
+
+#t02_channelhome  h2 a{ color:#007f4d;}
+#t02_channelhome  h2 i{background-position:-46px 0;}
+.catalogs-list .t02_channelhome a i{ background-position: -24px 0;}
+.floor-guide .icon_02_channelhome{ background-position: -40px 0; }
+
+#t01_channelhome   h2 a{ color:#fc5f3c;}
+#t01_channelhome   h2 i{background-position:0px 0;}
+.catalogs-list .t01_channelhome a i{ background-position: 0 0;}
+.floor-guide .icon_01_channelhome{ background-position: 0 0; }
+
+
+
+
+
+
+/*头部搜索框功能*/
+#shelper {
+    width: 455px;
+    overflow: hidden;
+    position: absolute;    
+    left: 0;
+   top: 27px; width: 445px;
+    border: 1px solid #CCC;
+    background: #fff;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+    z-index: 99999;
+}
+
+    #shelper li {
+        overflow: hidden;
+        padding: 3px 6px;
+        line-height: 22px;
+        cursor: pointer;
+        display: list-item;
+        text-align: -webkit-match-parent;
+        list-style: none;
+    }
+
+    #shelper .search-item {
+        float: left;
+        width: 390px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    #shelper .search-count {
+        overflow: hidden;
+        color: #aaa;
+        text-align: right;
+    }
+
+    #shelper .searchitemclose {
+        border-top: 1px solid #efefef;
+        text-align: right;
+    }
+
+
+ .spinner{position: relative;overflow: hidden;float: left;}
+ .spinner input{width: 39px;height:39px;line-height: 41px;font-size: 16px;text-align: center;border: none;-webkit-appearance: none;border: 1px solid #e2e2e2;border-right:none;    }
+ .spinner button{display: block;width: 18px;height: 20px;line-height: 20px;text-align: center;float:right;position:relative;border:1px solid #e2e2e2;background-color:white;cursor:pointer;}
+ .spinner .decrease{top:21px;right:18px;border-top:none;}
+ .spinner .increase{border-bottom: 1px solid #e2e2e2;height:21px;}
+ .spinner{width:76px;}
+
+ .mzbox .list .buy {position: absolute;right: 0;bottom: 0;display: block;width: 75px;height: 22px;line-height: 22px;text-align: center;color: #fff;-webkit-border-radius: 2px;-moz-border-radius: 2px;border-radius: 2px;}
+.mzbox .list .buy:hover{ color:#fff;}
+
+.fr li{float:right;}
+.page-tips{display:none;}
+
+
+
+
+/*------弹出框------*/
+/*基础样式*/
+.popout{ display:none;position:fixed; z-index:200; left:0; top:0;}
+.popout-wrap{z-index:101; position:fixed; left:50%; top:50%; width:418px; height:197px; margin-left:-210px; margin-top:-98px; background:#fff; _position: absolute;_margin-bottom: expression(this.offsetHeight/2);_top: expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));_border:1px solid #6ab930;}
+.popout-bg{position: fixed; top: 0;left: 0;z-index: 10;width: 100%;height: 100%; background: #000; border: 0;filter: alpha(opacity = 20);opacity: .20;_background:none;}
+.popout-con{ width:418px; height:197px; border:1px solid #008742;  }
+.popout-con .title{ position:relative; height:16px; padding:7px 0; font-size:14px; text-align:center; color:#fff; background:#008742;}
+.popout-con .title i{ width:13px; height:16px; margin-right:10px; background:url(../images/promotion-img.png) no-repeat -62px -39px;}
+.popout-con .con{ padding:25px 30px; line-height:22px; font-size:12px;}
+.popout-con h1{ font-size:14px; color:#397a2a; font-weight:normal;}
+.popout-con p{ color:#3f3f3f}
+.popout-con u{ color:#0071d1; margin-right:5px;}
+.popout-con .btnbox{ text-align:center; margin-top:20px;}
+.popout-con .btnbox a{ display:inline-block; width:90px; height:30px; margin:0 20px; line-height:30px; text-align:center;border:1px solid #6ab930;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius:3px}
+.popout-con .btnbox a.confirm{ color:#fff; background:#008742 }
+.popout-con .btnbox a.cancel{ color:#397a2a; background:#fff }
+.soldOut-poput{ margin-left:-210px; }
+/*404*/
+.error{ height:385px; padding:75px 0 0 600px; color:#777; background:url(../images/404.png) no-repeat top left}
+.error h2{ font: bold 30px "Microsoft YaHei";}
+.error p{ margin-top:10px; font: normal 16px "Microsoft YaHei";}

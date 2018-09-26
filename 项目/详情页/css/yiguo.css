@@ -1,0 +1,48 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.mr5{ margin-right:5px}
+
+.vm{vertical-align: middle;}
+
+/*------面包屑------*/
+.crumbs{ margin:10px 0; margin-left:-10px;}
+.crumbs a{ margin:0 10px;}
+.crumbs a.on{ color:#007f4d;}
+
+/*字色*/
+.green{ color:#008842;}
+
+/*按钮*/
+.btn-gn{ color:#fff; background:#008842;}
+.btn-gn:hover{ color:#fff; background:#09964e;}
+.btn-red{ color:#fff; background:#e8380d;}
+.btn-red:hover{ color:#fff; background:#f15630;}
+/*页码*/
+.paging{clear:both; float:right;}
+.paging .paging-num, .paging .paging-total, .paging .paging-form{ float:left; margin-left:10px;} 
+.paging .paging-num a{display:block; float:left; height:22px; margin:0 3px; overflow:hidden; background:#fff; border:1px solid #ccc; padding:0 7px; line-height:22px; vertical-align:middle;}
+.paging .paging-num a:hover, .paging .paging-num .this{ color:#008842; border:1px solid #008842;}
+.paging .paging-total{line-height: 24px;}
+.paging .paging-form input{text-align:center; border:1px solid #ccc; width:28px; height:22px; padding:0; vertical-align:middle; margin-right:5px; line-height:22px;} 
+.paging .paging-form span{ line-height:24px; margin:0 5px; vertical-align:middle;}
+.paging .paging-form button{background:#f4f4f4; cursor:pointer; border:none; color:#333; width:43px; height:24px; vertical-align:middle; line-height:22px; border:1px solid #ccc;}
+
+
+
+/*404*/
+.error{ height:385px; padding:75px 0 0 600px; color:#777; background:url(../images/404.png) no-repeat top left}
+.error h2{ font: bold 30px "Microsoft YaHei";}
+.error p{ margin-top:10px; font: normal 16px "Microsoft YaHei";}
+
+/*弹框*/
+.modal{ display:none;position:fixed; z-index:1000; left:0; top:0;}
+.modal-bg{position: fixed; top: 0;left: 0;z-index: 10;width: 100%;height: 100%; background: #000; border: 0;filter: alpha(opacity = 20);opacity: .20;_background:none;}
+.modal-content{ z-index:100; position:fixed; left:50%; top:50%; background:#fff; border:1px solid #008842;}
+.modal-header{ position:relative; padding:7px 3px; font-size:14px; text-align:center; color:#fff; background:#008842;}
+.modal-header i{ width:13px; height:16px; margin-right:10px; background:url(../images/promotion-img.png) no-repeat -62px -39px;}
+.modal-body{ padding:25px 30px; line-height:22px; font-size:12px;}
+.modal-body .btn-confirm{ color:#fff; background:#008842; }
+.modal-body .btn-confirm:hover{background:#09964e;}
+.modal-body .btn-cancel{ color:#555; background:#ececec; }
+.modal-body .btn-cancel:hover{background:#f1f1f1;}

@@ -1,0 +1,167 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*------轮播广告------*/
+.banner-slider { overflow:hidden; position: relative; width:100%; height: 500px;top:-38px;}
+.banner-slider .b-slider{ width:100% !important; margin:0 auto;}
+.banner-slider .b-slider li{ overflow:hidden; width:100% !important; height: 500px; background-position:center !important; background-repeat:no-repeat !important;}
+.banner-slider .b-slider li a{ display:block; width:100%; height:100%;}
+.banner-slider .slider-wrap{ z-index:1; position: relative; width:1200px; margin:0 auto; }
+.banner-slider .banner-text{position:absolute; top:0; right:0; opacity: 0;}
+.banner-slider .current .banner-text{opacity: 1;
+-webkit-transition: opacity 1.5s linear;
+-moz-transition: opacity 1.5s linear;
+-o-transition: opacity 1.5s linear;
+transition: opacity 1.5s linear;}
+.banner-slider .banner-main{ width:100%; height:500px; margin:0 auto; background-position:center !important; background-repeat:no-repeat !important;
+-webkit-transition: -webkit-transform 3.5s linear; 
+-moz-transition: -moz-transform 3.5s linear; 
+-o-transition: -o-transform 3.5s linear; 
+transition: transform 3.5s linear; 
+-webkit-transform: scaleX(1.1) scaleY(1.1); 
+-moz-transform: scaleX(1.1) scaleY(1.1); 
+-ms-transform: scaleX(1.1) scaleY(1.1); 
+-o-transform: scaleX(1.1) scaleY(1.1); 
+transform: scaleX(1.1) scaleY(1.1)}
+.banner-slider .current .banner-main{
+-webkit-transform: scaleX(1) scaleY(1);
+-moz-transform: scaleX(1) scaleY(1);
+-ms-transform: scaleX(1) scaleY(1);
+-o-transform: scaleX(1) scaleY(1);
+transform: scaleX(1) scaleY(1);}
+.banner-slider .b-btn{ zoom:1; z-index:4; }
+.banner-slider .b-btn a{ display: none; width: 40px; height: 100px; background: url(../images/slider-btn.png) no-repeat; position: absolute; top:50%; margin-top:-50px;}
+.banner-slider .b-btn .prev { left: 0; background-position:top left}
+.banner-slider .b-btn .next { right: 0; background-position:top right }
+.banner-slider .b-dot { position: absolute; bottom:12px; left:43%; height: 12px; zoom:1; z-index:3 }
+.banner-slider .b-dot li { overflow:hidden; float: left;  width: 12px; height: 12px; line-height: 10px; color:#b5b2a8; background: #b5b2a8; margin:0 5px; border-radius:50%; cursor:pointer; text-indent:100000000px;}
+.banner-slider .b-dot li.on { color:#5aaa16; background: #5aaa16; }
+
+/*------广告位------*/
+.ad-item{ margin-top:-25px;}
+.ad-item ul{ zoom: 1;margin-left: -12px; margin-top:10px; padding-top:7px; }
+.ad-item li{ position:relative; overflow: hidden; float: left; display: inline; width:290px;height: 290px; margin: 0 0 10px 13px;}
+.ad-item li:hover{
+-moz-box-shadow:0px 0px 7px #444;
+-webkit-box-shadow:0px 0px 7px #444; 
+box-shadow:0px 0px 7px #444;}
+.ad-item p{  position: absolute;bottom: 0; left: 0; right: 0; width:270px; height: 57px; line-height: 25px; margin:10px; color: #575757;text-align: center; white-space: nowrap;overflow: hidden;text-overflow: ellipsis; background: rgba(255, 255, 255, 0.9);  background:#fff \9;}
+.ad-item b{ display:block; font: bold 22px "Microsoft YaHei"; white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+
+/*------商品楼层------*/
+.floor{ clear:both; position:relative; margin-top:18px;}
+.floor-title{ position:relative; height:32px; line-height:32px; margin-bottom:5px;}
+.floor-title h2{ float:left; height:32px; font: bold 18px "Microsoft YaHei";}
+.floor-title h2 a{ color:#646464;}
+.floor-title i{ display:inline-block; width:31px; height:18px; margin-right:10px; padding: 10px 7px 4px 7px; color:#fff; font: bold 14px "Microsoft YaHei"; vertical-align:text-bottom; background:url(../images/floor_tit_icon.png) no-repeat left top;}
+/*.fruit1 h2 a{ color:#fc5f3c;}
+.fruit1 h2 i{ background-position:0 0;}
+.fruit2 h2 a{ color:#007f4d;}
+.fruit2 h2 i{ background-position:-46px 0;}
+.meat h2 a{ color:#f0c000;}
+.meat h2 i{ background-position:-92px 0;}
+.poultry h2 a{ color:#e08683;}
+.poultry h2 i{ background-position:-138px 0;}
+.seafood h2 a{ color:#45c6ce;}
+.seafood h2 i{ background-position:-184px 0;}
+.dessert h2 a{ color:#764e00;}
+.dessert h2 i{ background-position:-230px 0;}
+.vegetable h2 a{ color:#bcc257;}
+.vegetable h2 i{ background-position:-276px 0;}
+.fastfood h2 a{ color:#3ca3dc;}
+.fastfood h2 i{ background-position:-322px 0;}
+.grain h2 a{ color:#b84f00;}
+.grain h2 i{ background-position:-368px 0;}
+.drinks h2 a{ color:#940606;}
+.drinks h2 i{ background-position:-414px 0;}*/
+.floor-title .keyword{ float:right;}
+.floor-title .keyword a{ color:#4e4e4e;}
+.floor-title .keyword a:hover{ text-decoration:underline;}
+.floor-title .keyword a:after{content: "|"; padding:0 7px;}
+.floor-title .keyword a.last:after{content: ""; padding:0;}
+.floor-side{ float:left; width:275px; height:462px;}
+.floor-main{ position:relative; float:left; background:#fff;}
+.floor-main a{  display: block; -webkit-transition: -webkit-transform .2s linear; -moz-transition: -moz-transform .2s linear; -o-transition: -o-transform .2s linear; transition: transform .2s linear }
+.floor-main a:hover { -webkit-transform: translateX(5px); -moz-transform: translateX(5px); -ms-transform: translateX(5px); -o-transform: translateX(5px); transform: translateX(5px) }
+
+.floor-layout1{}
+.floor-layout1 ul{ overflow: hidden; zoom: 1; margin-left: -6px;}
+.floor-layout1 li{ position:relative; overflow: hidden;float: left; display: inline; width:293px; height: 345px; margin: 0 0 10px 6px; border:1px solid #d5d5d5; background:#fff;
+-webkit-transition: -webkit-transform .2s linear; -moz-transition: -moz-transform .2s linear; -o-transition: -o-transform .2s linear; transition: transform .2s linear }
+.floor-layout1 li:hover { -webkit-transform: translateX(5px); -moz-transform: translateX(5px); -ms-transform: translateX(5px); -o-transform: translateX(5px); transform: translateX(5px) }
+.floor-layout1 img{ display:block;}
+.floor-layout1 p{ height: 40px; line-height: 20px; padding:5px 10px; color: #575757; text-align: center; background:#fff; white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.floor-layout1 b{ display:block; color:#000; font: normal 14px/20px; "Microsoft YaHei"; white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+
+.floor-layout2 .floor-main{ width:924px; height:462px; border-top:1px solid #d5d5d5; border-left:1px solid #d5d5d5}
+.floor-layout2 li{ float:left; overflow:hidden; width:230px; height:230px; border-right: 1px solid #d5d5d5; border-bottom: 1px solid #d5d5d5;}
+.floor-layout2 .wide{ width:461px;}
+
+.floor-layout3 .floor-main{ width:923px; height:461px; border:1px solid #d5d5d5;}
+.floor-layout3 .col1,.floor-layout3 .col2,.floor-layout3 .col3{ float:left; overflow:hidden;}
+.floor-layout3 .col1{ width:234px; height:383px;  border-right: 1px solid #d5d5d5; border-bottom: 1px solid #d5d5d5;}
+.floor-layout3 .col2{ width:442px;}
+.floor-layout3 .col3{ width:246px; height:461px;}
+.floor-layout3 li{ float:left; overflow:hidden; height:191px; border-right: 1px solid #d5d5d5; border-bottom: 1px solid #d5d5d5; background:#fff;}
+.floor-layout3 .wide{ width:441px;}
+.floor-layout3 .narrow{ width:220px;}
+.floor-layout3 .logo-list{ overflow:hidden; position:absolute; left:0; bottom:0; width:654px; height:55px; padding:11px; _padding:10px 11px; border-right: 1px solid #d5d5d5; background:#fff; }
+.floor-layout3 .logo-list a{ float:left; margin:0 14px; _margin:0 13px;}
+
+.floor-layout4{}
+.floor-layout4 ul{ overflow: hidden; zoom: 1; margin-left: -8px;}
+.floor-layout4 li{ position:relative; overflow: hidden;float: left; display: inline; width:292px;height: 296px; margin: 0 0 10px 8px; border:1px solid #d5d5d5; background:#fff;
+-webkit-transition: -webkit-transform .2s linear; -moz-transition: -moz-transform .2s linear; -o-transition: -o-transform .2s linear; transition: transform .2s linear }
+.floor-layout4 li:hover { -webkit-transform: translateX(5px); -moz-transform: translateX(5px); -ms-transform: translateX(5px); -o-transform: translateX(5px); transform: translateX(5px) }
+.floor-layout4 img{ display:block;}
+
+.flash-sale h2 i{ vertical-align:middle; background-position:-507px 0; margin-left:10px;}
+.flash-sale .timing{ font-size:16px; color:#646464;}
+.flash-sale .floor-con{ overflow: hidden; zoom: 1;  margin-left:-12px; _margin-left:-25px}
+.flash-sale .product{ position:relative; overflow:hidden; float:left; width:230px; height:335px; margin-left:12px; padding:0; background:#fff;}
+.flash-sale .p-img{ overflow: hidden;position: relative; width:230px; height:230px; margin-bottom:0;}
+.flash-sale .p-info{ position:relative; height:85px; line-height:25px; padding:10px 7px; color:#040404;}
+.flash-sale .p-name{ padding:0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.flash-sale .p-name b{ font-size:14px; display:block; font-weight:normal;}
+.flash-sale .p-price{}
+.flash-sale .p-price span{margin-right:15px;}
+.flash-sale .p-price strong{ font-size:18px;}
+.flash-sale .p-price b{ font-weight:normal; margin-right: 3px;}
+.flash-sale .btn{ position:absolute; right:7px; bottom:10px; width:100px; height:25px; line-height:25px; color:#fff; font-size:12px; text-align:center; background:#e81818; cursor:pointer;
+-webkit-border-radius: 4px;
+-moz-border-radius:4px;
+border-radius:4px;}
+.flash-sale .btn:hover{ background:#f15630;}
+
+/*------- 楼层引导 -------*/
+.floor-guide{overflow: visible;display: none; position: fixed; top: 200px; left: 50%; width: 35px;height: 359px; margin-left: -655px;z-index: 100;width: 35px;text-align: center;}
+.floor-guide a{position: relative;display: block;width: 40px;height: 40px;line-height: 40px;color: #666;text-decoration: none;cursor: pointer;}
+.floor-guide b{ display:block; width:40px; height:40px; visibility: visible; background:url(../images/floor_guide.png) no-repeat 0px 0px;}
+/*.floor-guide .icon01{ background-position: 0 0; }
+.floor-guide .icon02{ background-position: -40px 0; }
+.floor-guide .icon03{ background-position: -80px 0; }
+.floor-guide .icon04{ background-position: -120px 0; }
+.floor-guide .icon05{ background-position: -160px 0; }
+.floor-guide .icon06{ background-position: -200px 0; }
+.floor-guide .icon07{ background-position: -240px 0; }
+.floor-guide .icon08{ background-position: -280px 0; }
+.floor-guide .icon09{ background-position: -320px 0; }
+.floor-guide .icon10{ background-position: -360px 0; }
+.floor-guide .icon11{ background-position: -440px 0; }*/
+.floor-guide em{ position: absolute;top: 0;left: 0; display: block; visibility: hidden; overflow:hidden; width: 24px; height: 29px; padding:6px 8px; line-height:14px; font-style: normal;color: #fff;
+-webkit-transition: background-color .3s ease-out;
+-moz-transition: background-color .3s ease-out;
+-o-transition: background-color .3s ease-out;
+transition: background-color .3s ease-out;}
+.floor-guide i{display: block;width: 10px;margin: auto;height: 0;line-height: 0;font-size: 0;border-top: 1px solid #d7d7d7;}
+.floor-guide a:hover b{ visibility: hidden; }
+.floor-guide a:hover em, .floor-guide .current em{visibility: visible; color: #fff;background-color: #008842;}
+.floor-guide .current { }
+.floor-guide .current b{ display:none;}
+
+
+/*首页*/
+#tenyears_ad{z-index: 100;display: block;position: fixed; _position: absolute;bottom: 0;left: 0; height:150px; width:100%; background:url(../images/tenyears_adbg.png) repeat;}
+#tenyears_ad .wrap{ position:relative;}
+#tenyears_ad .txt{ position:absolute; left:130px; top:-49px; width:950px; height:199px; background:url(../images/shouye2.png) no-repeat top left;}
+#tenyears_ad .btn{ position:absolute; left:940px; top:82px; display:block; width:110px; height:36px; text-align:center; color:#fff; font: bold 20px/36px "Microsoft YaHei"; }
+#tenyears_ad .close{ overflow:hidden; position:absolute; right:0; top:13px; width:24px; height:24px; text-indent:-999px; background:url(../images/icon_close.png) no-repeat left top;}

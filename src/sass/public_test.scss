@@ -1,0 +1,59 @@
+
+#header {border: none;background: #e0e0e0;width: 100%;
+    .con{
+        padding:15px 0 5px 0;height: 50px;
+        .logo{ position:relative;float:left;
+            a{
+                width: 195px; height: 50px; background:url(../img/register/logo.png) no-repeat;display:block;
+            }
+            .h-tit{color:#008842; left: 240px;font:28px/1 Microsoft YaHei; position:absolute;  top:6px; white-space:nowrap;}
+        }
+    }
+}
+
+
+
+
+
+.btn-green-l, .btn-green-s { background: #008842;}
+.btn-green-l, .btn-green-s, .btn-orange-s {display: inline-block; height: 50px; text-align: center; color:#fff; font: 18px/50px "Microsoft YaHei";}
+.btn-green-l {width: 306px;}
+.btn-green-l:hover{color:#fff;background: #009842;}
+
+
+
+.footer{zoom: 1; clear: both; position: relative; padding-bottom:20px; border-top:1px solid #e0e0e0;margin-top:30px;
+    .con{ margin:50px auto 0;}
+    dl{width:190px; float:left; margin-left:50px; display:inline;
+        dt{ height:23px; line-height:23px; background:url(../img/footer_icon.png) no-repeat; font-size:14px; text-indent:40px;
+        }
+        dd a{color:#575556; line-height:22px;}
+        dd a:hover{text-decoration:underline; color:#008842;}
+        dd{border-left:1px dashed #A8A8A8; padding-left:20px; height:110px; min-height:110px; margin:15px 0 0 13px;}
+    }
+    .col1 dt{background-position:0 0;}
+    .col2 dt{background-position:0 -23px;}
+    .col3 dt{background-position:0 -46px;}
+    .col4 dt{background-position:0 -69px;}
+    .col5 dt{background-position:0 -92px;}
+    .service{clear:both; text-align:center; padding:60px 0 20px; color:#008842; font-size:14px;
+        span{ display:inline-block; padding:0 10px;}
+    }
+    .copyright{clear:both; color:#717171; text-align:center; line-height:22px; 
+        a{color:#717171;}
+        a:hover{color:#008842;}
+    }
+
+    .authentication a{ display:inline-block; position: relative; margin:0 10px; zoom: 1; vertical-align:middle;display:inline-block; position: relative; margin:0 10px; zoom: 1; vertical-align:middle;}
+    .copyright{clear:both; color:#717171; text-align:center; line-height:22px; 
+        a{color:#717171;}
+        a:hover{color:#008842;}
+}
+
+
+
+
+.footer }
+.footer .copyright 
+.footer .copyright 
+.footer .authentication a{ }

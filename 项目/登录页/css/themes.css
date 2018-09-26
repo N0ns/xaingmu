@@ -1,0 +1,164 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body{ color:#444;}
+.w{ background: #f7f8f8;}
+a:hover{ color: #008842; }
+.logo a{ width: 195px; height: 50px; background:url(../images/logo.png) no-repeat;}
+
+/* 按钮 */
+.btn-green{background: #008842;}
+.btn-green:hover{background: #09964e;}
+.btn-white {background: #f9fff5;}
+.btn-white:hover{background: #ffffff;}
+.btn-gn{ color:#fff; border:1px solid #008842; background:#008842;}
+.btn-gn:hover{color:#fff; border:1px solid #09964e; background:#09964e;}
+.btn-wgn{ color:#008842; border:1px solid #008842; background:#fff;}
+.btn-wgn:hover{ color:#09964e; border:1px solid #09964e;}
+.btn-org{ color:#fff; border:1px solid #e8380d; background:#e8380d;}
+.btn-org:hover{color:#fff;  border:1px solid #f15630; background:#f15630;}
+.btn-worg{ color:#e8380d; border:1px solid #e8380d; background:#fff;}
+.btn-worg:hover{ color:#f15630; border:1px solid #f15630}
+.btn-green-l, .btn-green-s{background: #008842;}
+.btn-green-l:hover, .btn-green-s:hover{background:#09964e;}
+.btn-white{ color:#008842; border-color:#008842; background:#fff;}
+.btn-white:hover{ color:#09964e; border-color:#09964e;}
+.safe-info .btn-green{background: #008842;}
+.safe-info .btn-green:hover{background: #09964e;}
+.safe-info .btn-white{ color:#008842; border-color:#008842; background:#fff;}
+.safe-info .btn-white:hover{ color:#09964e; border-color:#09964e;}
+.r-invoice .invoice-item .btn-save{color:#fff; border-color:#008842; background:#008842;}
+.btn-yd:hover{border-color:#319ec3; color: #319ec3;}
+.btn-orange:hover{border-color:#f14b00;color: #f14b00;}
+.btn-dhtz:hover{ color:#5aaa16; border-color:#5aaa16;}
+.btn-hqyzm{ color:#008842;}
+
+/* 字色 */
+/*红*/.crumbs a.on, .myyg .user-info .acco-info li .num, .myyg .user-info .u-safe .safe-rank b, .addressList .btns a:hover, .orange, .recharge .price, .r-other .confirmation b{ color:#e8380d;}
+/*绿*/.sub .menu dd a:hover, .myyg .user-info .info-m .u-name .modify, .myyg .user-info .u-safe a, .myyg .table-title a, .sub .menu li.on a,.new-coupon li .mz .fl, .myyg-table tbody tr td a, .bd-promos, .green, .addressList .btns .edit:hover, .addrs b, .recipe .tips a, .m-step, .returns .CustomerService,.recharge .complete dt,.recharge h1, .r-payment .selectother:hover,.r-receive .receive-list .receive-more,.safe-info .si-user .edit, .new-coupon a:hover .fr p b, .safe .complete, .return-detail .r-steps strong b, .returns .r-submitted h4, .PickUpCard .c dt, .PickUpCard .c a, .PickUpCard-list .cur .btn-gn,.btn-edit,.order-process .o-t-all,.order-detail .order-state dt b,.order_complete dt,.order_complete .date,.p-login .reg a, .cart-none a,.myyb .yb a:hover,.coupon-table tbody tr td a,.order-none a,p.tips a,.btn-yzm,.nav-tabs .active a, .nav-tabs .active a:hover { color:#008842;}
+
+/* 背景色 */
+/*浅*/.myyg .table-title, .myorder .order-list th div, .returns .list-body th div{ background-color:#e8f1ea;}
+.r-other .confirmation,.return-info .r-list th,.return-info .r-profile .edit-info,.comment-team dt{ background-color:#f8fffc;}
+.recharge .complete dt, .returns .r-submitted,.PickUpCard .c dt,.order_complete dt,.register-succ{ background-color:#fdfbf6;}
+/*深*/.bd-title, .active .m-step{background-color: #008842;}
+
+/* 边框 */
+/*绿*/.GC .QuickView .qv-table, .m-step, .r-other .confirmation, .return-detail .r-steps,.return-info .r-profile .edit-info, .PickUpCard-list .cur, .PickUpCard-list .hover, .PickUpCard .p-title,.order-detail .order-state,.order-process, .order-info,.order-total{ border-color:#008842;}
+.myyg .user-info .acco-info li a:hover, .main .title, .paging .paging-num a:hover, .paging .paging-num .this,.myyg-tab .on, .main .subtitle b, .edit,.safe-info .si-user a,.PickUpCard .c .edit{ color:#008842; border-color:#008842;}
+
+/* 页头 */
+.header{ border:none; background: #e0e0e0;}
+.header .wrap {padding:15px 0 5px 0;}
+.search .search-btn {  height: 28px; background: url(../images/search-btn.jpg) no-repeat !important;}
+.search .search-input{ height: 26px; line-height: 26px; padding: 0 10px; border: 1px solid #008842; background: #e0e0e0;}
+.search .search-keywords a.hot{ color:#008842 !important;}
+.shopping-btn{ color:#008842; border: 1px solid #008842; background:#fff;}
+
+/* 页尾 */
+
+.sitemap dl dt i{ background-image:url(../images/footer-icon.png);}
+
+/* 弹框 */
+.popout-con{ border-color:#008842;}
+.popout-con .title{ background-color:#008842;}
+.popout-con .btnbox a{ border-color:#008842;}
+.popout-con .btnbox a.confirm{ color:#fff; background-color:#008842;}
+.popout-con .btnbox a.confirm:hover{ background-color:#09964e ;}
+.popout-con h1,.popout-con .btnbox a.cancel{ color:#008842;}
+.modal{border-color:#008842; background-color:#f8fffc;}
+.modal-header h3{ color:#008842;border-color:#008842;}
+.modal .controls .btn-save{ border-color:#008842;background: #008842;}
+.modal .controls .btn-save:hover{ border-color:#09964e; background: #09964e;}
+
+/*个人中心*/
+.myyg .user-info .acco-info li i{background-image: url(../images/user-info.png);}
+.myyg .user-info .info-m .u-level .vip .grade-line i{ background:#008842;}
+.new-coupon li .mj, .new-coupon li .mz{background-image:url(../images/coupon-bg.png);}
+.recharge .complete i{background-image:url(../images/returns-icon.png);}
+.si-password i, .si-email i, .si-phone i{background-image: url(../images/bg_safe.png);}
+.safe-info .si-user .edit i{background-image:url(../images/icon_edit.png);}
+.safe .complete i{background-image: url(../images/returns-icon.png);}
+.sp-step, .sm-step{background-image:url(../images/step_safe.png);}
+.recipes-upload dd .steps_num b{ color:#008842; border-color:#008842;}
+.recipes-upload dd .first b{ color:#fff; background:#008842;}
+.returns .r-submitted .icon{background-image: url(../images/returns-icon.png);}
+.returns .CustomerService i{background-image: url(../images/customer-service.png);}
+.PickUpCard{ margin-top:20px !important;}
+.PickUpCard .c i{background-image: url(../images/returns-icon.png);}
+.PickUpCard .c .edit i{background-image:url(../images/icon_edit.png);}
+.PickUpCard-list li i{background-image:url(../images/PickUpCard.png);}
+.PickUpCard .p-title .t{background-image:url(../images/PickUpCard.png);}
+.r-receive .receive-list .selected, .r-invoice .invoice-item .selected,.r-receive .receive-list .hover label, .r-invoice .invoice-item .hover label,.o-receive label.selected,.o-receive li:hover label,.order .table td .selected,.modal .table td.selected,.o-pay label.selected, .o-invoice-item label.selected, .o-invoice-item label:hover{ border-color:#008842; background-color:#ebf8f2;}
+.r-receive .receive-list li .btn-setdefault, .r-receive .receive-list li .btn-edit, .r-receive .receive-list li .btn-del, .r-invoice .invoice-item li .btn-edit, .r-invoice .invoice-item li .btn-del,.o-invoice-item label .btn-edit, .o-invoice-item label .btn-del{ color:#008842;}
+.r-receive .receive-list li b, .r-invoice .invoice-item li b,.order h2, .order i, .modal-header h3 i, .order b, .modal b, .order i, .o-voucher i{background-image:url(../images/bg_order.png);}
+.o-receive li:hover strong,.o-receive .btn-setdefault, .o-receive .btn-edit, .o-receive .btn-del,.order h3,.order .link,.order .table td .selected,.modal .table td a,.o-payment .edit, .o-payment .selectother,.o-payment label strong{ color:#008842;}
+.steps { margin-right: 75px;  padding-top: 5px;}
+.steps li b{background-image:url(../images/order-step.png);}
+.steps .on i{border-color: #008842; background: #008842;}
+.steps li span{ top:-6px; right:-162px; text-align:left;}
+.steps .on span{ color:#008842;}
+.comment_score .stars b{background-image:url(../images/comment_stars.gif);}
+.comment-team .stars .stars-bg span,.comment-team .stars .stars-bg{background-image:url(../images/stars.gif);}
+.order-detail .order-steps li b,.order-detail .order-steps li i, .return-detail .r-steps li b, .return-detail .r-steps li i{background-image:url(../images/order-steps.png);}
+.order_complete i{background-image: url(../images/returns-icon.png);}
+.mylist i{background-image: url(../images/btn_icon.png);}
+.loading i{background-image: url(../images/loading.gif);}
+
+/*购物车*/
+.cart,.order{ margin-top:20px;}
+.step{ width:504px; height:45px; background-image: url(../images/step.png);}
+.cart h2, .order h2, i, .decrement, .increment{background-image:url(../images/bg_cart.png);}
+.order h2, .cart h2{ border-color:#05984d;}
+.cart h2 .tips,.on-shopping,.cart-table-mj th a,.cart-slct-box h3{ color:#008842; }
+.cart .selected{ border-color: #5daf85; background-color: #ebf8f2;}
+.cart .selected td{ border-color: #5daf85;}
+.cart-table-mj th,.cart-slct-box h3{ background-color: #f2fcf7;}
+.cart .btn-zp{ border:1px solid #008842; color:#008842;}
+.preferential-buy h3{ color:#008842; border-color:#008842;}
+.preferential-buy h3 a:hover{ color: #008842;}
+.complete{ border-color:#5daf85;}
+.o-voucher .tab-pane .give .facevalue, .o-voucher .tab-pane .give .profile strong, .o-voucher .tab-pane .give .cancel a, .select-gift label{ color:#05984d;}
+.o-voucher .tab-pane .give .profile, .select-gift{border-color:#05984d;}
+.o-voucher .tab-pane .giftcard .facevalue, .o-voucher .tab-pane .giftcard .profile strong, .o-voucher .tab-pane .giftcard .cancel a{ color:#f18d00;}
+.o-voucher .tab-pane .giftcard .profile{border-color:#f18d00;}
+.r-receive .receive-list li b, .r-invoice .invoice-item li b, .order h2, .order i, .modal-header h3 i, .order b, .modal b, .order i, .o-voucher i{background-image:url(../images/bg_order.png);}
+.cart-footer em{ color:#e8380d;}
+.cart-footer .btn{ background-color:#e8380d;}
+.o-voucher .tab-pane .giftcard .facevalue, .o-voucher .tab-pane .give .facevalue{background-image:url(../images/quan.png);}
+.o-voucher .tab-pane li .profile{ border-left:none;}
+.o-voucher .btn-green{ color:#fff; background-color:#008842;}
+.o-invoice-item .btn-save{ border:1px solid #008842; background:#008842;}
+.order-mode .backcart{color:#008842;}
+
+/*购物车弹框*/
+.layer_global{ border-color: #008842;}
+.layer_global .layer_global_title{ background-color: #008842;}
+.btn_strong{ border-color: #008842;
+background: #008842; /* Old browsers */
+background: -moz-linear-gradient(top, #008842 0%, #008842 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#008842), color-stop(100%,#008842)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #008842 0%,#008842 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #008842 0%,#008842 100%); /* Opera11.10+ */
+background: -ms-linear-gradient(top, #008842 0%,#008842 100%); /* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008842', endColorstr='#008842',GradientType=0 ); /* IE6-9 */
+background: linear-gradient(top, #008842 0%,#008842 100%); /* W3C */
+}
+.btn_common{ border-color: #008842;}
+a.btn_common:link, a.btn_common:visited{ color: #008842;}
+
+/*登录注册*/
+.p-login .title{ color:#008842; border-color:#008842; background: #f2fcf7;}
+.p-login .login-btn a{background-color: #008842;}
+.register-succ i,.login i, .register i, .forget-pwd i, .f-step{background-image:url(../images/bg_login.png);}
+.register-succ{ border-top-color:#008842;}
+.logo .h-tit{  color:#008842; left: 240px;}
+.register-succ a{background-color:#e8380d;}
+.register-succ a:hover{background-color:#f15630;}
+.forget-pwd{ margin:0; padding-top:60px; border:none;}
+.f-step{ margin-top:0;}
+.btn-white-s{ color:#008842; border:1px solid #008842; background:#fff;}
+.btn-white-s:hover{ color:#09964e; border:1px solid #09964e;}
+.login{ margin:0; border:none;}
+.register .nav-tabs .active a, .register .nav-tabs .active a:hover{background-image:url(../images/tab_bg_active.jpg);}
+.register-succ{ background:#fff;}

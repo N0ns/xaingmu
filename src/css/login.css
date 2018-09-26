@@ -1,0 +1,36 @@
+.login {margin: 0;border: none;padding-top:30px;}
+.login .fl img {margin-top: 20px;}
+.login .fr{padding-right: 105px;}
+.login p{margin-bottom: 20px;font: 12px Arial, "SimSun";color:#878787;position:relative;overflow:hidden;}
+.right{text-align: right;}
+.login-main {width: 308px;padding: 30px 20px 20px;background-color: #fff;border: 1px solid #e3e6e0;}
+.login-main p{width: 100%;}
+
+.login p span { position: absolute; right: 0; top:0; }
+.login p .yzm{display:block;float:left;font-size: 30px;color:#009842;}
+.login .input { padding-left: 50px; width: 254px; background-image: url(../img/login/bg_input.png); background-repeat: no-repeat; border: 1px solid #c1c1c1;background-color: #fff;height: 38px;vertical-align: middle;font: 14px/38px "Microsoft YaHei";}
+
+.input-phone { background-position: 0 -120px; }
+
+.input-key { background-position: 0 -180px; }
+
+input[type=checkbox] { margin-right: 9px; height: 14px; width: 14px; vertical-align: -1px; }
+
+.input-phone-icon, .input-key-icon { position: absolute; left: 1px;  top: 1px !important; *top:2px !important;_top: 3px !important; width: 40px; height: 38px; background-image: url(../img/login/bg_input.png); background-repeat: no-repeat; }
+
+.input-phone-icon { background-position: 0 -120px; }
+
+.input-key-icon { background-position: 0 -180px; }
+
+i { display: inline-block;  *display: inline; *zoom: 1; width: 88px; height: 20px; background-image: url(../img/login/bg_login.png); background-repeat: no-repeat; margin-right: 20px; }
+
+.qq i { background-position: -60px -200px; }
+
+.sina i { background-position: -160px -200px; }
+
+.ay i { background-position: -260px -200px; width: 57px; margin-right: 0; }
+
+.msg-wrap { height: auto !important; margin: 2px 0px 5px; min-height: 31px; }
+
+.msg-error { position: relative; background: #FFEBEB none repeat scroll 0% 0%; border: 1px solid #E4393C; padding: 3px 10px 3px 40px; line-height: 18px; min-height: 18px; color: #E4393C; }
+

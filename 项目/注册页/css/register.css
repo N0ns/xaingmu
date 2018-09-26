@@ -1,0 +1,62 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*注册页面*/
+
+.logo{ position:relative;}
+
+/* tab */
+.tabbable {*zoom:1; width:100%; margin:10px auto 0;}
+.tabbable:before, .tabbable:after {display:table;content:""}
+.tabbable:after {clear:both}
+.nav-tabs {margin-left:0;list-style:none;*zoom:1;border-bottom:1px solid #b4c1a3; padding:0 10px;}/*展示区上边框样式*/
+.nav-tabs:before, .nav-tabs:after {display:table;content:""}
+.nav-tabs:after {clear:both}
+.nav-tabs li {float:left; margin-right:10px;}
+.nav-tabs li a {display:block;font:12px/2 microsoft yahei; color:#606060; padding:5px 12px;}/*tab标签页的样式*/
+.nav-tabs li a:hover {text-decoration:none; color:#58a51f}/*鼠标滑过样式*/
+.nav-tabs .active a, .nav-tabs .active a:hover {cursor:default;border-bottom:5px solid #58a51f;color:#58a51f; font-weight:bold;}/*当前标签页样式*/
+.tab-content .tab-pane {display:none; padding:10px 0;}
+.tab-content .active {display:block}
+.tab-content ul{margin-left:-40px;}
+.tab-content li{display:inline-block;*display:inline;*zoom:1; width:88px;}
+.tab-content li a{display: block;font:12px/2 microsoft yahei; color:#606060; text-align:right}
+
+
+input[type=text]:focus,input[type=password]:focus{outline:3px solid #b1d6ff;}
+.tabbable { position:relative}
+.tabbable .right { position: absolute; top:-27px; right:0; font:14px/1 "Microsoft YaHei";}
+.tabbable .right .orange { margin-right:36px; color:#ef760a; text-decoration:underline}
+.register{ padding-top: 54px;}
+.register .nav-tabs li { margin-bottom:-1px;}
+.register .nav-tabs li a {font:18px/1 "Microsoft YaHei"; color:#262626; padding:14px 66px 11px;background-color:#f7f7f7; border:1px solid #c4dfb1; border-bottom:0;}
+.register .nav-tabs .active a, .register .nav-tabs .active a:hover {border-bottom:0; font-weight: normal; background:#fff url(../images/tab_bg_active.jpg) 0 0 repeat-x; padding-bottom:12px;}
+.register .nav-tabs {border-bottom:1px solid #c4dfb1; padding-left:240px;}
+.register .tab-content .tab-pane { border:1px solid #c4dfb1; background-color:#fff; padding:40px 0 50px;}
+.register .field-name{ display:inline-block;*display:inline;*zoom:1; width:220px; text-align:right; padding-right:20px;}
+.register .input{ margin-right:20px;}
+.input-phone, .input-mail, .input-key { background-image:url(../images/bg_input.png); background-repeat:no-repeat;}
+.input-phone { background-position:276px -30px;}
+.input-mail { background-position:276px 10px;}
+.input-key { background-position:276px -70px;}
+.register .fr{ position:relative; height:340px; width:330px; text-align:center; padding-top:50px; font:14px/56px "Microsoft YaHei";}
+.register .fr .rimg{ position:absolute; left:-140px; top:70px;}
+input[type=checkbox]{ margin-right:9px; height:14px; width:14px; vertical-align:-1px}
+/*注册成功*/
+.register-succ{ height:247px; border:1px solid #e3e6e0; border-top:2px solid #70bd2c; background-color:#fcffed; margin-top:80px; color:#58a51f; font:24px/1 "Microsoft YaHei"; text-align:center; padding-top:80px; margin-bottom:60px}
+.register-succ i{ display:inline-block;*display:inline;*zoom:1; width:50px; height:50px; background:url(../images/bg_login.png) -360px -196px no-repeat; margin-right:20px; vertical-align:middle}
+.register-succ a{ display:block; width:127px; height:40px; text-align:center;font: 16px/40px "Microsoft YaHei"; color:#fff; margin:60px auto; background-color:#f14b00; border-radius:3px;}
+
+/*服务协议弹框*/
+.protocol-poput .popout-wrap{ margin-left: -470px; margin-top:-250px;}
+.protocol-poput .popout-wrap,.protocol-poput .popout-con{ width:940px; height:500px;}
+.protocol-poput .con{ padding:10px;}
+.protocol-poput h1{ text-align:center;line-height: 55px;}
+.protocol-poput .title{ height:40px; line-height:40px; padding:0; border-bottom:1px solid #6ab930; font-size:16px; text-align:center; color:#6ab930; font-weight:bold; background:#fafcf6;}
+.protocol-poput .title .close{ position:absolute; right:20px; top:12px; width:13px; height:13px; background:url(../images/login.png) no-repeat 0 0;}
+.protocol-poput .title .close:hover{ background-position: -26px 0}
+.register-protocol{ overflow-y:scroll; height:380px; color:#555 !important;}
+.register-protocol h4,.register-protocol h5{ line-height:35px;}
+.register-protocol p{line-height:20px; }
+.register-protocol strong{ margin-right:5px;}
+.protocol-poput .btn-gn{ width: 250px !important; height:35px !important; line-height:35px !important;font-size:16px;}
+.protocol-poput .btnbox{ margin-top:12px;}
